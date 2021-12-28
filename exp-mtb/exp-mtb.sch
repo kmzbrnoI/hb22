@@ -1851,4 +1851,48 @@ Wire Wire Line
 	1900 7000 2300 7000
 Wire Wire Line
 	1900 7100 2300 7100
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 62A482F7
+P 4800 5000
+F 0 "H1" H 4900 5046 50  0000 L CNN
+F 1 "MountingHole" H 4900 4955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 4800 5000 50  0001 C CNN
+F 3 "~" H 4800 5000 50  0001 C CNN
+	1    4800 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 62A49E9A
+P 4800 5200
+F 0 "H2" H 4900 5246 50  0000 L CNN
+F 1 "MountingHole" H 4900 5155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 4800 5200 50  0001 C CNN
+F 3 "~" H 4800 5200 50  0001 C CNN
+	1    4800 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 62A4A423
+P 4800 5400
+F 0 "H3" H 4900 5446 50  0000 L CNN
+F 1 "MountingHole" H 4900 5355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 4800 5400 50  0001 C CNN
+F 3 "~" H 4800 5400 50  0001 C CNN
+	1    4800 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 62A4A77D
+P 4800 5600
+F 0 "H4" H 4900 5646 50  0000 L CNN
+F 1 "MountingHole" H 4900 5555 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 4800 5600 50  0001 C CNN
+F 3 "~" H 4800 5600 50  0001 C CNN
+	1    4800 5600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
