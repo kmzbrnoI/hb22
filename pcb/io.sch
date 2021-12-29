@@ -1,0 +1,324 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 61EE3BC6
+P 2650 2100
+AR Path="/61CC7683/61EE3BC6" Ref="J?"  Part="1" 
+AR Path="/61EDD3FC/61EE3BC6" Ref="J?"  Part="1" 
+F 0 "J?" H 2700 2400 50  0000 C CNN
+F 1 "Conn_02x05" H 2700 1800 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 2650 2100 50  0001 C CNN
+F 3 "~" H 2650 2100 50  0001 C CNN
+	1    2650 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61EE3BCD
+P 2100 1500
+AR Path="/61CC7683/61EE3BCD" Ref="R?"  Part="1" 
+AR Path="/61EDD3FC/61EE3BCD" Ref="R?"  Part="1" 
+F 0 "R?" H 2170 1546 50  0000 L CNN
+F 1 "10k" H 2170 1455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2030 1500 50  0001 C CNN
+F 3 "~" H 2100 1500 50  0001 C CNN
+F 4 "C17414" H 2100 1500 50  0001 C CNN "LCSC"
+	1    2100 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61EE3BD4
+P 1900 1500
+AR Path="/61CC7683/61EE3BD4" Ref="R?"  Part="1" 
+AR Path="/61EDD3FC/61EE3BD4" Ref="R?"  Part="1" 
+F 0 "R?" H 1830 1454 50  0000 R CNN
+F 1 "10k" H 1830 1545 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1830 1500 50  0001 C CNN
+F 3 "~" H 1900 1500 50  0001 C CNN
+F 4 "C17414" H 1900 1500 50  0001 C CNN "LCSC"
+	1    1900 1500
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2100 2000 2100 1750
+Wire Wire Line
+	1900 1250 1900 1350
+Wire Wire Line
+	2100 1250 2100 1350
+Wire Wire Line
+	3050 2400 3050 2300
+Wire Wire Line
+	2950 2300 3050 2300
+Wire Wire Line
+	3050 1900 2950 1900
+NoConn ~ 2950 2000
+NoConn ~ 2950 2100
+NoConn ~ 2450 2300
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61EE3BE4
+P 2100 1750
+AR Path="/61CC7683/61EE3BE4" Ref="TP?"  Part="1" 
+AR Path="/61EDD3FC/61EE3BE4" Ref="TP?"  Part="1" 
+F 0 "TP?" V 2100 2100 50  0000 R CNN
+F 1 "TestPoint" H 2050 2050 50  0001 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2300 1750 50  0001 C CNN
+F 3 "~" H 2300 1750 50  0001 C CNN
+	1    2100 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61EE3BEA
+P 1900 1750
+AR Path="/61CC7683/61EE3BEA" Ref="TP?"  Part="1" 
+AR Path="/61EDD3FC/61EE3BEA" Ref="TP?"  Part="1" 
+F 0 "TP?" V 1900 2100 50  0000 R CNN
+F 1 "TestPoint" H 2000 2100 50  0001 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2100 1750 50  0001 C CNN
+F 3 "~" H 2100 1750 50  0001 C CNN
+	1    1900 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Power_Protection:SP0505BAJT D?
+U 1 1 61EE3BF0
+P 2100 2800
+AR Path="/61CC7683/61EE3BF0" Ref="D?"  Part="1" 
+AR Path="/61EDD3FC/61EE3BF0" Ref="D?"  Part="1" 
+F 0 "D?" H 2405 2846 50  0000 L CNN
+F 1 "SMF05" H 2405 2755 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 2400 2750 50  0001 L CNN
+F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 2225 2925 50  0001 C CNN
+	1    2100 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 1650 1900 1750
+$Comp
+L Device:R R?
+U 1 1 61EE3BF7
+P 3250 1500
+AR Path="/61CC7683/61EE3BF7" Ref="R?"  Part="1" 
+AR Path="/61EDD3FC/61EE3BF7" Ref="R?"  Part="1" 
+F 0 "R?" H 3320 1546 50  0000 L CNN
+F 1 "10k" H 3320 1455 50  0000 L CNN
+F 2 "" V 3180 1500 50  0001 C CNN
+F 3 "~" H 3250 1500 50  0001 C CNN
+	1    3250 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 1900 2200 1900
+Wire Wire Line
+	2100 2000 2450 2000
+Connection ~ 1900 1900
+Connection ~ 2100 2000
+Wire Wire Line
+	2950 2200 3250 2200
+Wire Wire Line
+	3250 2200 3450 2200
+Connection ~ 3250 2200
+Wire Wire Line
+	1900 2600 1900 2200
+Connection ~ 1900 2200
+Wire Wire Line
+	1900 2200 2450 2200
+Wire Wire Line
+	2000 2600 2000 2100
+Connection ~ 2000 2100
+Wire Wire Line
+	2000 2100 2450 2100
+Wire Wire Line
+	2100 2000 2100 2600
+Wire Wire Line
+	2200 2600 2200 1900
+Connection ~ 2200 1900
+Wire Wire Line
+	2200 1900 2450 1900
+$Comp
+L power:GND #PWR?
+U 1 1 61EE3C2E
+P 3050 2400
+AR Path="/61CC7683/61EE3C2E" Ref="#PWR?"  Part="1" 
+AR Path="/61EDD3FC/61EE3C2E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3050 2150 50  0001 C CNN
+F 1 "GND" H 3050 2250 50  0000 C CNN
+F 2 "" H 3050 2400 50  0001 C CNN
+F 3 "" H 3050 2400 50  0001 C CNN
+	1    3050 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 2600 3250 2600
+Wire Wire Line
+	3250 2200 3250 2600
+$Comp
+L power:GND #PWR?
+U 1 1 61EE3C36
+P 2100 3000
+AR Path="/61CC7683/61EE3C36" Ref="#PWR?"  Part="1" 
+AR Path="/61EDD3FC/61EE3C36" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2100 2750 50  0001 C CNN
+F 1 "GND" H 2105 2827 50  0000 C CNN
+F 2 "" H 2100 3000 50  0001 C CNN
+F 3 "" H 2100 3000 50  0001 C CNN
+	1    2100 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse F?
+U 1 1 61EE3C3C
+P 3050 1500
+AR Path="/61CC7683/61EE3C3C" Ref="F?"  Part="1" 
+AR Path="/61EDD3FC/61EE3C3C" Ref="F?"  Part="1" 
+F 0 "F?" H 2991 1454 50  0000 R CNN
+F 1 "Fuse" H 2991 1545 50  0000 R CNN
+F 2 "" V 2980 1500 50  0001 C CNN
+F 3 "~" H 3050 1500 50  0001 C CNN
+	1    3050 1500
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3050 1250 3050 1350
+Wire Wire Line
+	3050 1650 3050 1900
+Wire Wire Line
+	3250 1350 3250 1250
+Wire Wire Line
+	3250 1650 3250 2200
+Connection ~ 1900 1750
+Wire Wire Line
+	1900 1750 1900 1900
+Connection ~ 2100 1750
+Wire Wire Line
+	2100 1750 2100 1650
+Text HLabel 3450 2200 2    50   Output ~ 0
+EXP-CONNECTED
+Text HLabel 1150 1900 0    50   BiDi ~ 0
+SDA
+Text HLabel 1150 2000 0    50   BiDi ~ 0
+SCL
+Text HLabel 1150 2100 0    50   Output ~ 0
+EXP-TO-B
+Text HLabel 1150 2200 0    50   Input ~ 0
+B-TO-EXP
+$Comp
+L Device:R R?
+U 1 1 61EEFB2F
+P 1400 1500
+AR Path="/61CC7683/61EEFB2F" Ref="R?"  Part="1" 
+AR Path="/61EDD3FC/61EEFB2F" Ref="R?"  Part="1" 
+F 0 "R?" H 1330 1454 50  0000 R CNN
+F 1 "10k" H 1330 1545 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1330 1500 50  0001 C CNN
+F 3 "~" H 1400 1500 50  0001 C CNN
+F 4 "C17414" H 1400 1500 50  0001 C CNN "LCSC"
+	1    1400 1500
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	1400 1250 1400 1350
+Wire Wire Line
+	1400 1650 1400 2100
+Wire Wire Line
+	1400 2100 2000 2100
+Wire Wire Line
+	1400 2100 1150 2100
+Connection ~ 1400 2100
+$Comp
+L Device:R R?
+U 1 1 61EF1A09
+P 1450 2200
+F 0 "R?" V 1550 2200 50  0000 C CNN
+F 1 "250R" V 1650 2200 50  0000 C CNN
+F 2 "" V 1380 2200 50  0001 C CNN
+F 3 "~" H 1450 2200 50  0001 C CNN
+	1    1450 2200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1600 2200 1900 2200
+Wire Wire Line
+	1300 2200 1150 2200
+Wire Wire Line
+	1150 2000 2100 2000
+Wire Wire Line
+	1150 1900 1900 1900
+Text Notes 1750 850  0    100  ~ 0
+Expansion PCB
+Wire Notes Line
+	4300 750  4300 3450
+Wire Notes Line
+	4300 3450 650  3450
+$Comp
+L power:+5V #PWR?
+U 1 1 61F0D214
+P 3250 1250
+F 0 "#PWR?" H 3250 1100 50  0001 C CNN
+F 1 "+5V" H 3265 1423 50  0000 C CNN
+F 2 "" H 3250 1250 50  0001 C CNN
+F 3 "" H 3250 1250 50  0001 C CNN
+	1    3250 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61F0EE01
+P 3050 1250
+F 0 "#PWR?" H 3050 1100 50  0001 C CNN
+F 1 "+5V" H 3065 1423 50  0000 C CNN
+F 2 "" H 3050 1250 50  0001 C CNN
+F 3 "" H 3050 1250 50  0001 C CNN
+	1    3050 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61F0EFC3
+P 2100 1250
+F 0 "#PWR?" H 2100 1100 50  0001 C CNN
+F 1 "+5V" H 2115 1423 50  0000 C CNN
+F 2 "" H 2100 1250 50  0001 C CNN
+F 3 "" H 2100 1250 50  0001 C CNN
+	1    2100 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61F0F1F5
+P 1900 1250
+F 0 "#PWR?" H 1900 1100 50  0001 C CNN
+F 1 "+5V" H 1915 1423 50  0000 C CNN
+F 2 "" H 1900 1250 50  0001 C CNN
+F 3 "" H 1900 1250 50  0001 C CNN
+	1    1900 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61F0F4CA
+P 1400 1250
+F 0 "#PWR?" H 1400 1100 50  0001 C CNN
+F 1 "+5V" H 1415 1423 50  0000 C CNN
+F 2 "" H 1400 1250 50  0001 C CNN
+F 3 "" H 1400 1250 50  0001 C CNN
+	1    1400 1250
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
