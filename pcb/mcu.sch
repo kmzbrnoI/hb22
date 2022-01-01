@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 2 6
 Title "HB22 MTB Expansion Module"
 Date "2021-12-28"
 Rev "1.0"

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title "HB22 – DCC booster"
 Date "2021-12-28"
 Rev "1.0"
@@ -43,5 +43,11 @@ S 6300 2650 1050 1100
 U 61D0378D
 F0 "Logic" 50
 F1 "logic.sch" 50
+$EndSheet
+$Sheet
+S 4400 4600 1400 1500
+U 62367840
+F0 "Stabilization" 100
+F1 "stabil.sch" 100
 $EndSheet
 $EndSCHEMATC
