@@ -391,8 +391,6 @@ Wire Wire Line
 	6800 1250 7650 1250
 Connection ~ 7650 1250
 Wire Wire Line
-	7650 1250 8000 1250
-Wire Wire Line
 	7500 2250 5400 2250
 Wire Wire Line
 	5400 2250 5400 1650
@@ -415,6 +413,225 @@ F 3 "" H 7650 2500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7650 2500 7650 2400
-Text GLabel 8000 1250 2    50   Input ~ 0
+$Comp
+L Device:Q_PMOS_DGS Q?
+U 1 1 623BDBA7
+P 9600 1350
+F 0 "Q?" V 9942 1350 50  0000 C CNN
+F 1 "Q_PMOS_DGS" V 9851 1350 50  0000 C CNN
+F 2 "" H 9800 1450 50  0001 C CNN
+F 3 "~" H 9600 1350 50  0001 C CNN
+	1    9600 1350
+	0    -1   -1   0   
+$EndComp
+Text Label 7050 1250 0    50   ~ 0
 STEPOUT
+$Comp
+L Device:R R?
+U 1 1 623C05BD
+P 8750 1250
+F 0 "R?" V 8543 1250 50  0000 C CNN
+F 1 "0R033" V 8634 1250 50  0000 C CNN
+F 2 "" V 8680 1250 50  0001 C CNN
+F 3 "~" H 8750 1250 50  0001 C CNN
+	1    8750 1250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7650 1250 8600 1250
+Wire Wire Line
+	8900 1250 9400 1250
+Wire Wire Line
+	9800 1250 10400 1250
+Text HLabel 10400 1250 2    50   Output ~ 0
+V+
+Text Notes 8950 900  0    50   ~ 0
+Linearly limit current to 3A max
+Text Notes 8650 1400 0    50   ~ 0
+Sense
+$Comp
+L Analog_ADC:INA219AxD U?
+U 1 1 623CB276
+P 7500 4200
+F 0 "U?" H 7250 4700 50  0000 C CNN
+F 1 "INA219AxD" H 7250 4600 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8300 3850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina219.pdf" H 7850 4100 50  0001 C CNN
+	1    7500 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 623CF60B
+P 7500 3300
+F 0 "#PWR?" H 7500 3150 50  0001 C CNN
+F 1 "+5V" H 7515 3473 50  0000 C CNN
+F 2 "" H 7500 3300 50  0001 C CNN
+F 3 "" H 7500 3300 50  0001 C CNN
+	1    7500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 623D1235
+P 6950 3600
+F 0 "C?" H 7065 3646 50  0000 L CNN
+F 1 "100n" H 7065 3555 50  0000 L CNN
+F 2 "" H 6988 3450 50  0001 C CNN
+F 3 "~" H 6950 3600 50  0001 C CNN
+	1    6950 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 623D1916
+P 6950 3750
+F 0 "#PWR?" H 6950 3500 50  0001 C CNN
+F 1 "GND" H 6955 3577 50  0000 C CNN
+F 2 "" H 6950 3750 50  0001 C CNN
+F 3 "" H 6950 3750 50  0001 C CNN
+	1    6950 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 3300 7500 3400
+Wire Wire Line
+	6950 3450 6950 3400
+Wire Wire Line
+	6950 3400 7500 3400
+Connection ~ 7500 3400
+Wire Wire Line
+	7500 3400 7500 3800
+$Comp
+L power:GND #PWR?
+U 1 1 623D7F5B
+P 7500 4600
+F 0 "#PWR?" H 7500 4350 50  0001 C CNN
+F 1 "GND" H 7505 4427 50  0000 C CNN
+F 2 "" H 7500 4600 50  0001 C CNN
+F 3 "" H 7500 4600 50  0001 C CNN
+	1    7500 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 4000 6600 4000
+Wire Wire Line
+	7100 4100 6600 4100
+Text HLabel 6600 4000 0    50   BiDi ~ 0
+SDA
+Text HLabel 6600 4100 0    50   BiDi ~ 0
+SCL
+$Comp
+L power:GND #PWR?
+U 1 1 623DC5F4
+P 6950 4600
+F 0 "#PWR?" H 6950 4350 50  0001 C CNN
+F 1 "GND" H 6955 4427 50  0000 C CNN
+F 2 "" H 6950 4600 50  0001 C CNN
+F 3 "" H 6950 4600 50  0001 C CNN
+	1    6950 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 4600 6950 4400
+Wire Wire Line
+	6950 4300 7100 4300
+Wire Wire Line
+	7100 4400 6950 4400
+Connection ~ 6950 4400
+Wire Wire Line
+	6950 4400 6950 4300
+Wire Wire Line
+	7900 4100 8000 4100
+Wire Wire Line
+	7900 4300 8000 4300
+$Comp
+L Sensor_Temperature:LM75B U?
+U 1 1 623E4DB9
+P 5250 4200
+F 0 "U?" H 5450 4800 50  0000 C CNN
+F 1 "LM75B" H 5450 4700 50  0000 C CNN
+F 2 "" H 5250 4200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm75b.pdf" H 5250 4200 50  0001 C CNN
+	1    5250 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 623EA981
+P 5250 3300
+F 0 "#PWR?" H 5250 3150 50  0001 C CNN
+F 1 "+5V" H 5265 3473 50  0000 C CNN
+F 2 "" H 5250 3300 50  0001 C CNN
+F 3 "" H 5250 3300 50  0001 C CNN
+	1    5250 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 3700 5250 3400
+Wire Wire Line
+	5650 4100 5750 4100
+Wire Wire Line
+	5750 4100 5750 4200
+$Comp
+L power:GND #PWR?
+U 1 1 623EE69A
+P 5750 4400
+F 0 "#PWR?" H 5750 4150 50  0001 C CNN
+F 1 "GND" H 5755 4227 50  0000 C CNN
+F 2 "" H 5750 4400 50  0001 C CNN
+F 3 "" H 5750 4400 50  0001 C CNN
+	1    5750 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 4300 5750 4300
+Connection ~ 5750 4300
+Wire Wire Line
+	5750 4300 5750 4400
+Wire Wire Line
+	5650 4200 5750 4200
+Connection ~ 5750 4200
+Wire Wire Line
+	5750 4200 5750 4300
+$Comp
+L power:GND #PWR?
+U 1 1 623F12EA
+P 5250 4700
+F 0 "#PWR?" H 5250 4450 50  0001 C CNN
+F 1 "GND" H 5255 4527 50  0000 C CNN
+F 2 "" H 5250 4700 50  0001 C CNN
+F 3 "" H 5250 4700 50  0001 C CNN
+	1    5250 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 623F3087
+P 4700 3600
+F 0 "C?" H 4815 3646 50  0000 L CNN
+F 1 "100n" H 4815 3555 50  0000 L CNN
+F 2 "" H 4738 3450 50  0001 C CNN
+F 3 "~" H 4700 3600 50  0001 C CNN
+	1    4700 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 623F308D
+P 4700 3750
+F 0 "#PWR?" H 4700 3500 50  0001 C CNN
+F 1 "GND" H 4705 3577 50  0000 C CNN
+F 2 "" H 4700 3750 50  0001 C CNN
+F 3 "" H 4700 3750 50  0001 C CNN
+	1    4700 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3450 4700 3400
+Wire Wire Line
+	4700 3400 5250 3400
+Connection ~ 5250 3400
+Wire Wire Line
+	5250 3400 5250 3300
 $EndSCHEMATC

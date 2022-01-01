@@ -47,7 +47,7 @@ $EndSheet
 $Sheet
 S 4400 4600 1400 1500
 U 62367840
-F0 "Stabilization" 100
-F1 "stabil.sch" 100
+F0 "Stabilization" 50
+F1 "stabil.sch" 50
 $EndSheet
 $EndSCHEMATC
