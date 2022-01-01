@@ -3,8 +3,8 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 6
-Title "HB22 MTB Expansion Module"
+Sheet 5 6
+Title "HB22 – microcontroller"
 Date "2021-12-28"
 Rev "1.0"
 Comp "Model Railroader Club Brno I – KMŽ Brno I – https://kmz-brno.cz/"
@@ -14,10 +14,10 @@ Comment3 "https://creativecommons.org/licenses/by-sa/4.0/"
 Comment4 "Released under the Creative Commons Attribution-ShareAlike 4.0 License"
 $EndDescr
 $Comp
-L MCU_Microchip_ATmega:ATmega328P-AU U?
+L MCU_Microchip_ATmega:ATmega328P-AU U6
 U 1 1 61CC7EDA
 P 5400 3200
-F 0 "U?" H 5750 1700 50  0000 C CNN
+F 0 "U6" H 5750 1700 50  0000 C CNN
 F 1 "ATmega328P-AU" H 5800 1600 50  0000 C CNN
 F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 5400 3200 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 5400 3200 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20w
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C2
 U 1 1 61CCB309
 P 4600 1650
-F 0 "C?" H 4715 1696 50  0000 L CNN
+F 0 "C2" H 4715 1696 50  0000 L CNN
 F 1 "100n" H 4715 1605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4638 1500 50  0001 C CNN
 F 3 "~" H 4600 1650 50  0001 C CNN
@@ -37,10 +37,10 @@ F 4 "C49678" H 4600 1650 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C1
 U 1 1 61CCBB4F
 P 4350 1650
-F 0 "C?" H 4235 1604 50  0000 R CNN
+F 0 "C1" H 4235 1604 50  0000 R CNN
 F 1 "100n" H 4235 1695 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4388 1500 50  0001 C CNN
 F 3 "~" H 4350 1650 50  0001 C CNN
@@ -49,10 +49,10 @@ F 4 "C49678" H 4350 1650 50  0001 C CNN "LCSC"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C3
 U 1 1 61CCC411
 P 4600 2600
-F 0 "C?" H 4485 2554 50  0000 R CNN
+F 0 "C3" H 4485 2554 50  0000 R CNN
 F 1 "100n" H 4485 2645 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4638 2450 50  0001 C CNN
 F 3 "~" H 4600 2600 50  0001 C CNN
@@ -102,10 +102,10 @@ Connection ~ 5400 1500
 Wire Wire Line
 	5400 1500 5500 1500
 $Comp
-L Device:R R?
+L Device:R R4
 U 1 1 61CD147A
 P 7000 3200
-F 0 "R?" H 6931 3154 50  0000 R CNN
+F 0 "R4" H 6931 3154 50  0000 R CNN
 F 1 "10k" H 6931 3245 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6930 3200 50  0001 C CNN
 F 3 "~" H 7000 3200 50  0001 C CNN
@@ -118,10 +118,10 @@ RESET
 Wire Wire Line
 	7000 3350 7000 3500
 $Comp
-L Connector:AVR-ISP-6 J?
+L Connector:AVR-ISP-6 J1
 U 1 1 61CD9D82
 P 5400 6100
-F 0 "J?" H 5071 6196 50  0000 R CNN
+F 0 "J1" H 5071 6196 50  0000 R CNN
 F 1 "AVR-ISP-6" H 5071 6105 50  0000 R CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" V 5150 6150 50  0001 C CNN
 F 3 " ~" H 4125 5550 50  0001 C CNN
@@ -129,10 +129,10 @@ F 3 " ~" H 4125 5550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Open JP?
+L Jumper:SolderJumper_2_Open JP1
 U 1 1 61CDAE3A
 P 5750 5500
-F 0 "JP?" H 5750 5705 50  0000 C CNN
+F 0 "JP1" H 5750 5705 50  0000 C CNN
 F 1 "SJ_2_Open" H 5750 5614 50  0000 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5750 5500 50  0001 C CNN
 F 3 "~" H 5750 5500 50  0001 C CNN
@@ -171,10 +171,10 @@ Wire Wire Line
 Wire Wire Line
 	6000 3400 6100 3400
 $Comp
-L Device:C C?
+L Device:C C5
 U 1 1 61CE67F8
 P 7750 3100
-F 0 "C?" H 7550 3050 50  0000 C CNN
+F 0 "C5" H 7550 3050 50  0000 C CNN
 F 1 "22p" H 7550 3150 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7788 2950 50  0001 C CNN
 F 3 "~" H 7750 3100 50  0001 C CNN
@@ -183,10 +183,10 @@ F 4 "C1804" H 7750 3100 50  0001 C CNN "LCSC"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C4
 U 1 1 61CE6BBD
 P 7450 3100
-F 0 "C?" H 7250 3150 50  0000 C CNN
+F 0 "C4" H 7250 3150 50  0000 C CNN
 F 1 "22p" H 7250 3050 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 7488 2950 50  0001 C CNN
 F 3 "~" H 7450 3100 50  0001 C CNN
@@ -227,10 +227,10 @@ F 3 "" H 5400 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D1
 U 1 1 61D74942
 P 8800 2900
-F 0 "D?" V 8839 2782 50  0000 R CNN
+F 0 "D1" V 8839 2782 50  0000 R CNN
 F 1 "RED" V 8748 2782 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8800 2900 50  0001 C CNN
 F 3 "~" H 8800 2900 50  0001 C CNN
@@ -239,10 +239,10 @@ F 4 "C84256" H 8800 2900 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D2
 U 1 1 61D74FAB
 P 9150 2900
-F 0 "D?" V 9189 2782 50  0000 R CNN
+F 0 "D2" V 9189 2782 50  0000 R CNN
 F 1 "GR" V 9098 2782 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9150 2900 50  0001 C CNN
 F 3 "~" H 9150 2900 50  0001 C CNN
@@ -251,10 +251,10 @@ F 4 "C2297" H 9150 2900 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED D?
+L Device:LED D3
 U 1 1 61D75399
 P 9500 2900
-F 0 "D?" V 9539 2782 50  0000 R CNN
+F 0 "D3" V 9539 2782 50  0000 R CNN
 F 1 "YEL" V 9448 2782 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 9500 2900 50  0001 C CNN
 F 3 "~" H 9500 2900 50  0001 C CNN
@@ -263,10 +263,10 @@ F 4 "C2293" H 9500 2900 50  0001 C CNN "LCSC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R1
 U 1 1 61D7652E
 P 8800 2500
-F 0 "R?" H 8870 2546 50  0000 L CNN
+F 0 "R1" H 8870 2546 50  0000 L CNN
 F 1 "1k" H 8870 2455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8730 2500 50  0001 C CNN
 F 3 "~" H 8800 2500 50  0001 C CNN
@@ -275,10 +275,10 @@ F 4 "C17513" H 8800 2500 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R2
 U 1 1 61D76BAC
 P 9150 2500
-F 0 "R?" H 9220 2546 50  0000 L CNN
+F 0 "R2" H 9220 2546 50  0000 L CNN
 F 1 "1k" H 9220 2455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9080 2500 50  0001 C CNN
 F 3 "~" H 9150 2500 50  0001 C CNN
@@ -287,10 +287,10 @@ F 4 "C17513" H 9150 2500 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R3
 U 1 1 61D7718A
 P 9500 2500
-F 0 "R?" H 9570 2546 50  0000 L CNN
+F 0 "R3" H 9570 2546 50  0000 L CNN
 F 1 "1k" H 9570 2455 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9430 2500 50  0001 C CNN
 F 3 "~" H 9500 2500 50  0001 C CNN
@@ -355,28 +355,6 @@ Text Label 6100 2100 0    50   ~ 0
 LED-GREEN
 Text Label 6100 2200 0    50   ~ 0
 LED-RED
-$Comp
-L Connector:TestPoint TP?
-U 1 1 6254561A
-P 2300 3650
-F 0 "TP?" H 2358 3768 50  0000 L CNN
-F 1 "TestPoint" H 2358 3677 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D3.50mm_Drill1.4mm_Beaded" H 2500 3650 50  0001 C CNN
-F 3 "~" H 2500 3650 50  0001 C CNN
-	1    2300 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0109
-U 1 1 62546714
-P 2300 3650
-F 0 "#PWR0109" H 2300 3400 50  0001 C CNN
-F 1 "GND" H 2305 3477 50  0000 C CNN
-F 2 "" H 2300 3650 50  0001 C CNN
-F 3 "" H 2300 3650 50  0001 C CNN
-	1    2300 3650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5000 6000 4600 6000
 Wire Wire Line
@@ -429,10 +407,10 @@ Connection ~ 7600 3400
 Wire Wire Line
 	7600 3400 7750 3400
 $Comp
-L Device:Crystal Y?
+L Device:Crystal Y1
 U 1 1 61CE3018
 P 7600 2800
-F 0 "Y?" H 7550 3150 50  0000 L CNN
+F 0 "Y1" H 7550 3150 50  0000 L CNN
 F 1 "14.7456 MHz" H 7350 3050 50  0000 L CNN
 F 2 "Crystal:Crystal_SMD_HC49-SD_HandSoldering" H 7600 2800 50  0001 C CNN
 F 3 "~" H 7600 2800 50  0001 C CNN
@@ -500,4 +478,25 @@ Text HLabel 6100 3700 2    50   Output ~ 0
 EN1
 Text HLabel 6100 3800 2    50   Output ~ 0
 EN2
+Wire Wire Line
+	6000 4100 6100 4100
+Wire Wire Line
+	6000 4200 6100 4200
+Text HLabel 6100 4100 2    50   Input ~ 0
+BRIDGE-OVERHEAT
+Text HLabel 6100 4200 2    50   Input ~ 0
+STABIL-OVERHEAT
+Wire Wire Line
+	6000 4300 6100 4300
+Text HLabel 6100 4300 2    50   Output ~ 0
+STEPDOWN-EN
+Wire Wire Line
+	6000 3900 6100 3900
+Text HLabel 6100 3900 2    50   Output ~ 0
+L-SIGMN
+Wire Wire Line
+	6000 4400 6100 4400
+Text HLabel 6100 4400 2    50   Output ~ 0
+L-SIGE
+NoConn ~ 6000 2900
 $EndSCHEMATC
