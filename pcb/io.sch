@@ -368,20 +368,18 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 6211AB53
-P 10400 4150
-F 0 "J?" H 10400 3800 50  0000 C CNN
-F 1 "Conn_01x02" H 10400 3900 50  0000 C CNN
-F 2 "" H 10400 4150 50  0001 C CNN
-F 3 "~" H 10400 4150 50  0001 C CNN
-	1    10400 4150
+P 10400 4050
+F 0 "J?" H 10400 3700 50  0000 C CNN
+F 1 "Conn_01x02" H 10400 3800 50  0000 C CNN
+F 2 "" H 10400 4050 50  0001 C CNN
+F 3 "~" H 10400 4050 50  0001 C CNN
+	1    10400 4050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1350 3450 1600 3450
 Wire Wire Line
-	10200 4150 10150 4150
-Wire Wire Line
-	9950 4250 10050 4250
+	10200 4050 10150 4050
 Text Label 1400 3250 0    50   ~ 0
 C
 Text Label 1400 3350 0    50   ~ 0
@@ -392,10 +390,6 @@ Text Label 1400 5400 0    50   ~ 0
 N
 Text Label 1400 5500 0    50   ~ 0
 M
-Text HLabel 9950 4150 0    50   Output ~ 0
-U
-Text HLabel 9950 4250 0    50   Output ~ 0
-V
 $Comp
 L Device:D D?
 U 1 1 6212496A
@@ -796,7 +790,7 @@ Text Notes 1100 2850 0    100  ~ 0
 DCC in
 Text Notes 1150 5250 0    50   ~ 0
 Short-circuit indication
-Text Notes 10400 3950 2    100  ~ 0
+Text Notes 10400 3850 2    100  ~ 0
 Vin
 Text Notes 950  3050 0    50   ~ 0
 & Lenz short-circuit\nindication via C wire
@@ -804,50 +798,236 @@ Text Notes 1100 6800 0    100  ~ 0
 Galvanically separated
 Wire Notes Line
 	3250 750  3250 7600
-Text Notes 10400 5650 2    50   ~ 0
+Text Notes 10400 5700 2    50   ~ 0
 Track out
-Text HLabel 9950 5850 0    50   Input ~ 0
+Text HLabel 9150 5900 0    50   Input ~ 0
 J
-Text HLabel 9950 5750 0    50   Input ~ 0
+Text HLabel 9150 5800 0    50   Input ~ 0
 K
-Wire Wire Line
-	9950 5850 10200 5850
-Wire Wire Line
-	10200 5750 9950 5750
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 6224058B
-P 10400 5750
-F 0 "J?" H 10400 5400 50  0000 C CNN
-F 1 "Conn_01x02" H 10400 5500 50  0000 C CNN
-F 2 "" H 10400 5750 50  0001 C CNN
-F 3 "~" H 10400 5750 50  0001 C CNN
-	1    10400 5750
+P 10400 5800
+F 0 "J?" H 10400 5450 50  0000 C CNN
+F 1 "Conn_01x02" H 10400 5550 50  0000 C CNN
+F 2 "" H 10400 5800 50  0001 C CNN
+F 3 "~" H 10400 5800 50  0001 C CNN
+	1    10400 5800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 6227B7E6
-P 10400 4850
-F 0 "J?" H 10400 4500 50  0000 C CNN
-F 1 "Conn_01x02" H 10400 4600 50  0000 C CNN
-F 2 "" H 10400 4850 50  0001 C CNN
-F 3 "~" H 10400 4850 50  0001 C CNN
-	1    10400 4850
+P 10400 4750
+F 0 "J?" H 10400 4400 50  0000 C CNN
+F 1 "Conn_01x02" H 10400 4500 50  0000 C CNN
+F 2 "" H 10400 4750 50  0001 C CNN
+F 3 "~" H 10400 4750 50  0001 C CNN
+	1    10400 4750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10200 4950 10050 4950
+	10200 4850 10050 4850
 Wire Wire Line
-	10050 4950 10050 4250
-Connection ~ 10050 4250
+	10050 4850 10050 4150
 Wire Wire Line
-	10050 4250 10200 4250
+	10050 4150 10200 4150
 Wire Wire Line
-	10200 4850 10150 4850
+	10200 4750 10150 4750
 Wire Wire Line
-	10150 4850 10150 4150
-Connection ~ 10150 4150
+	10150 4750 10150 4050
+$Comp
+L power:GND #PWR?
+U 1 1 62299004
+P 10050 4950
+F 0 "#PWR?" H 10050 4700 50  0001 C CNN
+F 1 "GND" H 10055 4777 50  0000 C CNN
+F 2 "" H 10050 4950 50  0001 C CNN
+F 3 "" H 10050 4950 50  0001 C CNN
+	1    10050 4950
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	10150 4150 9950 4150
+	10050 4950 10050 4850
+Connection ~ 10050 4850
+$Comp
+L Triac_Thyristor:BT169D Q?
+U 1 1 6229E28C
+P 7250 4200
+F 0 "Q?" H 7337 4246 50  0000 L CNN
+F 1 "BT169D" H 7337 4155 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7350 4125 50  0001 L CIN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/NXP%20PDFs/BT169_Series.pdf" H 7250 4200 50  0001 L CNN
+	1    7250 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 622A2EAE
+P 7600 4700
+F 0 "C?" H 7485 4654 50  0000 R CNN
+F 1 "100n" H 7485 4745 50  0000 R CNN
+F 2 "" H 7638 4550 50  0001 C CNN
+F 3 "~" H 7600 4700 50  0001 C CNN
+	1    7600 4700
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 622A37ED
+P 8000 4700
+F 0 "R?" H 8070 4746 50  0000 L CNN
+F 1 "2k2" H 8070 4655 50  0000 L CNN
+F 2 "" V 7930 4700 50  0001 C CNN
+F 3 "~" H 8000 4700 50  0001 C CNN
+	1    8000 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 622A4910
+P 8450 4700
+F 0 "C?" H 8565 4746 50  0000 L CNN
+F 1 "100n" H 8565 4655 50  0000 L CNN
+F 2 "" H 8488 4550 50  0001 C CNN
+F 3 "~" H 8450 4700 50  0001 C CNN
+	1    8450 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BZX84Cxx D?
+U 1 1 6229F9B5
+P 8000 4200
+F 0 "D?" V 7950 4100 50  0000 R CNN
+F 1 "BZX84C35" V 8050 4100 50  0000 R CNN
+F 2 "Diode_SMD:D_SOT-23_ANK" H 8000 4025 50  0001 C CNN
+F 3 "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf" H 8000 4200 50  0001 C CNN
+	1    8000 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6700 4050 7250 4050
+Connection ~ 7250 4050
+Wire Wire Line
+	7250 4050 8000 4050
+Connection ~ 8000 4050
+Wire Wire Line
+	8000 4350 7600 4350
+Wire Wire Line
+	7400 4350 7400 4300
+Wire Wire Line
+	8000 4550 8000 4350
+Connection ~ 8000 4350
+Wire Wire Line
+	7600 4550 7600 4350
+Connection ~ 7600 4350
+Wire Wire Line
+	7600 4350 7400 4350
+$Comp
+L Device:D D?
+U 1 1 622A18E2
+P 8850 4200
+F 0 "D?" V 8804 4280 50  0000 L CNN
+F 1 "SS34" V 8895 4280 50  0000 L CNN
+F 2 "" H 8850 4200 50  0001 C CNN
+F 3 "~" H 8850 4200 50  0001 C CNN
+	1    8850 4200
+	0    1    1    0   
+$EndComp
+Connection ~ 8850 4050
+Wire Wire Line
+	8850 4050 9400 4050
+Wire Wire Line
+	8850 4350 8850 5100
+Wire Wire Line
+	8850 5100 8450 5100
+Wire Wire Line
+	7250 5100 7250 4350
+Wire Wire Line
+	7600 4850 7600 5100
+Connection ~ 7600 5100
+Wire Wire Line
+	7600 5100 7250 5100
+Wire Wire Line
+	8000 4850 8000 5100
+Connection ~ 8000 5100
+Wire Wire Line
+	8000 5100 7600 5100
+Wire Wire Line
+	8450 4850 8450 5100
+Connection ~ 8450 5100
+Wire Wire Line
+	8450 5100 8000 5100
+Wire Wire Line
+	8450 4550 8450 4050
+Wire Wire Line
+	8000 4050 8450 4050
+Connection ~ 8450 4050
+Wire Wire Line
+	8450 4050 8850 4050
+$Comp
+L Device:Fuse F?
+U 1 1 623151FE
+P 9550 4050
+F 0 "F?" V 9353 4050 50  0000 C CNN
+F 1 "3.15A" V 9444 4050 50  0000 C CNN
+F 2 "" V 9480 4050 50  0001 C CNN
+F 3 "~" H 9550 4050 50  0001 C CNN
+	1    9550 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9700 4050 10150 4050
+Connection ~ 10150 4050
+Text Notes 9350 4200 0    50   ~ 0
+Irreversible
+$Comp
+L power:GND #PWR?
+U 1 1 6231E0C1
+P 8000 5250
+F 0 "#PWR?" H 8000 5000 50  0001 C CNN
+F 1 "GND" H 8005 5077 50  0000 C CNN
+F 2 "" H 8000 5250 50  0001 C CNN
+F 3 "" H 8000 5250 50  0001 C CNN
+	1    8000 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 5250 8000 5100
+Text HLabel 6700 4050 0    50   Output ~ 0
+VIN
+Text Notes 9050 5350 0    50   ~ 0
+Allowed range: track+1 V ... 34 V DC
+$Comp
+L Device:Fuse F?
+U 1 1 6234F9FA
+P 9550 5800
+F 0 "F?" V 9353 5800 50  0000 C CNN
+F 1 "3.15A" V 9444 5800 50  0000 C CNN
+F 2 "" V 9480 5800 50  0001 C CNN
+F 3 "~" H 9550 5800 50  0001 C CNN
+	1    9550 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Fuse F?
+U 1 1 6234FEF0
+P 9550 5900
+F 0 "F?" V 9750 5900 50  0000 C CNN
+F 1 "3.15A" V 9650 5900 50  0000 C CNN
+F 2 "" V 9480 5900 50  0001 C CNN
+F 3 "~" H 9550 5900 50  0001 C CNN
+	1    9550 5900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9700 5800 10200 5800
+Wire Wire Line
+	9700 5900 10200 5900
+Wire Wire Line
+	9400 5800 9150 5800
+Wire Wire Line
+	9150 5900 9400 5900
+Text Notes 9350 6250 0    50   ~ 0
+Irreversible
 $EndSCHEMATC
