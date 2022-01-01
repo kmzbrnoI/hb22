@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title "HB22 – DCC booster"
 Date "2021-12-28"
 Rev "1.0"
@@ -26,9 +26,22 @@ F0 "IO" 50
 F1 "io.sch" 50
 $EndSheet
 $Sheet
-S 6250 2550 1250 1400
+S 7600 2650 1250 1050
 U 61CF16A7
 F0 "Bridge" 50
 F1 "bridge.sch" 50
+F2 "V+" I L 7600 2800 50 
+F3 "K" O R 8850 2950 50 
+F4 "J" O R 8850 2800 50 
+F5 "BRIDGE1" I L 7600 3100 50 
+F6 "BRIDGE2" I L 7600 3250 50 
+F7 "BRIDGE3" I L 7600 3400 50 
+F8 "BRIDGE4" I L 7600 3550 50 
+$EndSheet
+$Sheet
+S 6300 2650 1050 1100
+U 61D0378D
+F0 "Logic" 50
+F1 "logic.sch" 50
 $EndSheet
 $EndSCHEMATC

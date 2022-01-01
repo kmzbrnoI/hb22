@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 2 5
 Title "HB22 MTB Expansion Module"
 Date "2021-12-28"
 Rev "1.0"
@@ -492,4 +492,12 @@ F 3 "" H 6050 5400 50  0001 C CNN
 	1    6050 5400
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6000 3700 6100 3700
+Wire Wire Line
+	6000 3800 6100 3800
+Text HLabel 6100 3700 2    50   Output ~ 0
+EN1
+Text HLabel 6100 3800 2    50   Output ~ 0
+EN2
 $EndSCHEMATC
