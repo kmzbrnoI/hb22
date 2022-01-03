@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 4 6
 Title "HB22 – stabilization"
 Date ""
 Rev ""
@@ -682,4 +682,6 @@ F 3 "~" H 3000 6600 50  0001 C CNN
 	1    3000 6600
 	1    0    0    -1  
 $EndComp
+Text HLabel 9600 2400 0    50   Output ~ 0
+OVERLOAD
 $EndSCHEMATC
