@@ -130,15 +130,11 @@ Wire Wire Line
 	4900 1500 4700 1500
 Wire Wire Line
 	4900 1350 4700 1350
-Wire Wire Line
-	1850 1500 2050 1500
-Wire Wire Line
-	1850 1350 2050 1350
-Text GLabel 2050 1350 2    50   BiDi ~ 0
+Text GLabel 3150 3450 2    50   BiDi ~ 0
 SDA
 Text GLabel 4700 1350 0    50   BiDi ~ 0
 SDA
-Text GLabel 2050 1500 2    50   BiDi ~ 0
+Text GLabel 3150 3600 2    50   BiDi ~ 0
 SCL
 Text GLabel 4700 1500 0    50   BiDi ~ 0
 SCL
@@ -210,8 +206,8 @@ S 650  700  1200 6850
 U 61EDD3FC
 F0 "IO" 50
 F1 "io.sch" 50
-F2 "SDA" B R 1850 1350 50 
-F3 "SCL" B R 1850 1500 50 
+F2 "SDA" B R 1850 3450 50 
+F3 "SCL" B R 1850 3600 50 
 F4 "EXP-TO-B" O R 1850 1950 50 
 F5 "B-TO-EXP" I R 1850 1800 50 
 F6 "EXP-CONNECTED" O R 1850 2100 50 
@@ -302,27 +298,27 @@ $EndComp
 $Comp
 L Connector:TestPoint TP?
 U 1 1 6255F67B
-P 3300 3250
+P 4000 3250
 AR Path="/61CC7683/6255F67B" Ref="TP?"  Part="1" 
 AR Path="/6255F67B" Ref="TP1"  Part="1" 
-F 0 "TP1" H 3358 3368 50  0000 L CNN
-F 1 "TestPoint" H 3358 3277 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Loop_D3.50mm_Drill1.4mm_Beaded" H 3500 3250 50  0001 C CNN
-F 3 "~" H 3500 3250 50  0001 C CNN
-	1    3300 3250
+F 0 "TP1" H 4058 3368 50  0000 L CNN
+F 1 "TestPoint" H 4058 3277 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Loop_D3.50mm_Drill1.4mm_Beaded" H 4200 3250 50  0001 C CNN
+F 3 "~" H 4200 3250 50  0001 C CNN
+	1    4000 3250
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 6255F681
-P 3300 3250
+P 4000 3250
 AR Path="/61CC7683/6255F681" Ref="#PWR?"  Part="1" 
 AR Path="/6255F681" Ref="#PWR01"  Part="1" 
-F 0 "#PWR01" H 3300 3000 50  0001 C CNN
-F 1 "GND" H 3305 3077 50  0000 C CNN
-F 2 "" H 3300 3250 50  0001 C CNN
-F 3 "" H 3300 3250 50  0001 C CNN
-	1    3300 3250
+F 0 "#PWR01" H 4000 3000 50  0001 C CNN
+F 1 "GND" H 4005 3077 50  0000 C CNN
+F 2 "" H 4000 3250 50  0001 C CNN
+F 3 "" H 4000 3250 50  0001 C CNN
+	1    4000 3250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -338,4 +334,112 @@ Wire Wire Line
 Connection ~ 2000 5950
 Wire Wire Line
 	2000 5950 2800 5950
+$Comp
+L Device:R R?
+U 1 1 61DAC851
+P 2700 3050
+AR Path="/61CC7683/61DAC851" Ref="R?"  Part="1" 
+AR Path="/61EDD3FC/61DAC851" Ref="R?"  Part="1" 
+AR Path="/61DAC851" Ref="R7"  Part="1" 
+F 0 "R7" H 2770 3096 50  0000 L CNN
+F 1 "10k" H 2770 3005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2630 3050 50  0001 C CNN
+F 3 "~" H 2700 3050 50  0001 C CNN
+F 4 "C17414" H 2700 3050 50  0001 C CNN "LCSC"
+	1    2700 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61DAC858
+P 2500 3050
+AR Path="/61CC7683/61DAC858" Ref="R?"  Part="1" 
+AR Path="/61EDD3FC/61DAC858" Ref="R?"  Part="1" 
+AR Path="/61DAC858" Ref="R6"  Part="1" 
+F 0 "R6" H 2430 3004 50  0000 R CNN
+F 1 "10k" H 2430 3095 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2430 3050 50  0001 C CNN
+F 3 "~" H 2500 3050 50  0001 C CNN
+F 4 "C17414" H 2500 3050 50  0001 C CNN "LCSC"
+	1    2500 3050
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2500 2800 2500 2900
+Wire Wire Line
+	2700 2800 2700 2900
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61DAC861
+P 2700 3300
+AR Path="/61CC7683/61DAC861" Ref="TP?"  Part="1" 
+AR Path="/61EDD3FC/61DAC861" Ref="TP?"  Part="1" 
+AR Path="/61DAC861" Ref="TP3"  Part="1" 
+F 0 "TP3" V 2700 3650 50  0000 R CNN
+F 1 "TestPoint" H 2650 3600 50  0001 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2900 3300 50  0001 C CNN
+F 3 "~" H 2900 3300 50  0001 C CNN
+	1    2700 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61DAC867
+P 2500 3300
+AR Path="/61CC7683/61DAC867" Ref="TP?"  Part="1" 
+AR Path="/61EDD3FC/61DAC867" Ref="TP?"  Part="1" 
+AR Path="/61DAC867" Ref="TP2"  Part="1" 
+F 0 "TP2" V 2500 3650 50  0000 R CNN
+F 1 "TestPoint" H 2600 3650 50  0001 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 2700 3300 50  0001 C CNN
+F 3 "~" H 2700 3300 50  0001 C CNN
+	1    2500 3300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2500 3200 2500 3300
+Connection ~ 2700 3300
+Wire Wire Line
+	2700 3300 2700 3200
+$Comp
+L power:+5V #PWR?
+U 1 1 61DAC872
+P 2700 2800
+AR Path="/61EDD3FC/61DAC872" Ref="#PWR?"  Part="1" 
+AR Path="/61DAC872" Ref="#PWR06"  Part="1" 
+F 0 "#PWR06" H 2700 2650 50  0001 C CNN
+F 1 "+5V" H 2715 2973 50  0000 C CNN
+F 2 "" H 2700 2800 50  0001 C CNN
+F 3 "" H 2700 2800 50  0001 C CNN
+	1    2700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61DAC878
+P 2500 2800
+AR Path="/61EDD3FC/61DAC878" Ref="#PWR?"  Part="1" 
+AR Path="/61DAC878" Ref="#PWR05"  Part="1" 
+F 0 "#PWR05" H 2500 2650 50  0001 C CNN
+F 1 "+5V" H 2515 2973 50  0000 C CNN
+F 2 "" H 2500 2800 50  0001 C CNN
+F 3 "" H 2500 2800 50  0001 C CNN
+	1    2500 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 3450 2500 3450
+Wire Wire Line
+	1850 3600 2700 3600
+Wire Wire Line
+	2700 3300 2700 3600
+Connection ~ 2700 3600
+Wire Wire Line
+	2700 3600 3150 3600
+Wire Wire Line
+	2500 3300 2500 3450
+Connection ~ 2500 3300
+Connection ~ 2500 3450
+Wire Wire Line
+	2500 3450 3150 3450
 $EndSCHEMATC

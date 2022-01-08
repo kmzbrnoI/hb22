@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 6 6
 Title "HB22 – IO"
 Date ""
 Rev ""
@@ -26,40 +26,6 @@ F 3 "~" H 9300 2200 50  0001 C CNN
 	1    9300 2200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 61EE3BCD
-P 8750 1600
-AR Path="/61CC7683/61EE3BCD" Ref="R?"  Part="1" 
-AR Path="/61EDD3FC/61EE3BCD" Ref="R7"  Part="1" 
-F 0 "R7" H 8820 1646 50  0000 L CNN
-F 1 "10k" H 8820 1555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8680 1600 50  0001 C CNN
-F 3 "~" H 8750 1600 50  0001 C CNN
-F 4 "C17414" H 8750 1600 50  0001 C CNN "LCSC"
-	1    8750 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 61EE3BD4
-P 8550 1600
-AR Path="/61CC7683/61EE3BD4" Ref="R?"  Part="1" 
-AR Path="/61EDD3FC/61EE3BD4" Ref="R6"  Part="1" 
-F 0 "R6" H 8480 1554 50  0000 R CNN
-F 1 "10k" H 8480 1645 50  0000 R CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8480 1600 50  0001 C CNN
-F 3 "~" H 8550 1600 50  0001 C CNN
-F 4 "C17414" H 8550 1600 50  0001 C CNN "LCSC"
-	1    8550 1600
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	8750 2100 8750 1850
-Wire Wire Line
-	8550 1350 8550 1450
-Wire Wire Line
-	8750 1350 8750 1450
 Wire Wire Line
 	9700 2500 9700 2400
 Wire Wire Line
@@ -69,32 +35,6 @@ Wire Wire Line
 NoConn ~ 9600 2100
 NoConn ~ 9600 2200
 NoConn ~ 9100 2400
-$Comp
-L Connector:TestPoint TP?
-U 1 1 61EE3BE4
-P 8750 1850
-AR Path="/61CC7683/61EE3BE4" Ref="TP?"  Part="1" 
-AR Path="/61EDD3FC/61EE3BE4" Ref="TP3"  Part="1" 
-F 0 "TP3" V 8750 2200 50  0000 R CNN
-F 1 "TestPoint" H 8700 2150 50  0001 R CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8950 1850 50  0001 C CNN
-F 3 "~" H 8950 1850 50  0001 C CNN
-	1    8750 1850
-	0    1    1    0   
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 61EE3BEA
-P 8550 1850
-AR Path="/61CC7683/61EE3BEA" Ref="TP?"  Part="1" 
-AR Path="/61EDD3FC/61EE3BEA" Ref="TP2"  Part="1" 
-F 0 "TP2" V 8550 2200 50  0000 R CNN
-F 1 "TestPoint" H 8650 2200 50  0001 R CNN
-F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 8750 1850 50  0001 C CNN
-F 3 "~" H 8750 1850 50  0001 C CNN
-	1    8550 1850
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Power_Protection:SP0505BAJT D?
 U 1 1 61EE3BF0
@@ -108,8 +48,6 @@ F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/do
 	1    8750 2900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8550 1750 8550 1850
 $Comp
 L Device:R R?
 U 1 1 61EE3BF7
@@ -124,10 +62,7 @@ F 3 "~" H 9900 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8550 2000 8850 2000
-Wire Wire Line
 	8750 2100 9100 2100
-Connection ~ 8550 2000
 Connection ~ 8750 2100
 Wire Wire Line
 	9600 2300 9900 2300
@@ -202,12 +137,6 @@ Wire Wire Line
 	9900 1450 9900 1350
 Wire Wire Line
 	9900 1750 9900 2300
-Connection ~ 8550 1850
-Wire Wire Line
-	8550 1850 8550 2000
-Connection ~ 8750 1850
-Wire Wire Line
-	8750 1850 8750 1750
 Text HLabel 7800 2000 0    50   BiDi ~ 0
 SDA
 Text HLabel 7800 2100 0    50   BiDi ~ 0
@@ -256,8 +185,6 @@ Wire Wire Line
 	7950 2300 7800 2300
 Wire Wire Line
 	7800 2100 8750 2100
-Wire Wire Line
-	7800 2000 8550 2000
 Text Notes 8650 900  0    100  ~ 0
 Expansion PCB
 $Comp
@@ -280,28 +207,6 @@ F 1 "+5V" H 9715 1523 50  0000 C CNN
 F 2 "" H 9700 1350 50  0001 C CNN
 F 3 "" H 9700 1350 50  0001 C CNN
 	1    9700 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0117
-U 1 1 61F0EFC3
-P 8750 1350
-F 0 "#PWR0117" H 8750 1200 50  0001 C CNN
-F 1 "+5V" H 8765 1523 50  0000 C CNN
-F 2 "" H 8750 1350 50  0001 C CNN
-F 3 "" H 8750 1350 50  0001 C CNN
-	1    8750 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0118
-U 1 1 61F0F1F5
-P 8550 1350
-F 0 "#PWR0118" H 8550 1200 50  0001 C CNN
-F 1 "+5V" H 8565 1523 50  0000 C CNN
-F 2 "" H 8550 1350 50  0001 C CNN
-F 3 "" H 8550 1350 50  0001 C CNN
-	1    8550 1350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1066,4 +971,6 @@ F 3 "~" H 8000 4050 50  0001 C CNN
 	1    8000 4050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7800 2000 8850 2000
 $EndSCHEMATC
