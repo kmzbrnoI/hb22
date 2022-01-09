@@ -354,8 +354,8 @@ $Comp
 L Device:R_POT RV1
 U 1 1 623A4ACC
 P 6750 2200
-F 0 "RV1" H 6680 2246 50  0000 R CNN
-F 1 "1k5 LIN" H 6680 2155 50  0000 R CNN
+F 0 "RV1" H 6900 2300 50  0000 L CNN
+F 1 "1k5 LIN" H 6900 2100 50  0000 L CNN
 F 2 "Potentiometer_THT:Potentiometer_Piher_PT-6-V_Vertical" H 6750 2200 50  0001 C CNN
 F 3 "~" H 6750 2200 50  0001 C CNN
 	1    6750 2200
@@ -417,7 +417,7 @@ F 3 "~" H 8450 1200 50  0001 C CNN
 $EndComp
 Text HLabel 10800 1200 2    50   Output ~ 0
 V+
-Text Notes 8500 700  0    50   ~ 0
+Text Notes 8550 800  0    50   ~ 0
 Linearly limit current to 3A max
 Text Notes 8350 1350 0    50   ~ 0
 Sense
@@ -637,7 +637,7 @@ F 3 "~" H 2700 6550 50  0001 C CNN
 	1    2700 6550
 	1    0    0    -1  
 $EndComp
-Text HLabel 10250 2700 2    50   Output ~ 0
+Text HLabel 10500 4450 2    50   Output ~ 0
 OVERLOAD
 Text Notes 6000 1750 0    50   ~ 0
 ESR < 0R088!\ne.g. EEUFR1V101
@@ -756,17 +756,6 @@ Connection ~ 7250 1200
 Wire Wire Line
 	7250 3350 7250 3450
 $Comp
-L Amplifier_Operational:TSV911IDT U?
-U 1 1 61DCF7CF
-P 9350 2300
-F 0 "U?" H 9500 2450 50  0000 L CNN
-F 1 "TSV911IDT" H 9350 2550 50  0000 L CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9250 2100 50  0001 L CNN
-F 3 "www.st.com/resource/en/datasheet/tsv911.pdf" H 9500 2450 50  0001 C CNN
-	1    9350 2300
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 61DD2497
 P 8050 1450
@@ -808,10 +797,6 @@ Wire Wire Line
 	9800 2300 9800 1500
 Wire Wire Line
 	9800 2300 9800 2700
-Wire Wire Line
-	8950 2700 8950 2400
-Wire Wire Line
-	8950 2400 9050 2400
 Connection ~ 9800 2300
 $Comp
 L Device:R R?
@@ -826,8 +811,6 @@ F 3 "~" H 9550 2700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9700 2700 9800 2700
-Wire Wire Line
-	9400 2700 8950 2700
 Wire Wire Line
 	8200 1200 8200 1750
 Wire Wire Line
@@ -853,10 +836,7 @@ F 3 "~" H 8300 2500 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	8950 2400 8800 2400
-Wire Wire Line
 	8800 2400 8800 1600
-Connection ~ 8950 2400
 Wire Wire Line
 	8300 2200 9050 2200
 Wire Wire Line
@@ -920,4 +900,102 @@ Wire Wire Line
 	7100 4400 7700 4400
 Wire Wire Line
 	7100 4600 8700 4600
+$Comp
+L Amplifier_Operational:TSV911IDT U?
+U 1 1 61DCF7CF
+P 9350 2300
+F 0 "U?" H 9500 2450 50  0000 L CNN
+F 1 "TSV911IDT" H 9350 2550 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9250 2100 50  0001 L CNN
+F 3 "www.st.com/resource/en/datasheet/tsv911.pdf" H 9500 2450 50  0001 C CNN
+	1    9350 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 2400 9050 2400
+Wire Wire Line
+	8800 2400 8800 2700
+Wire Wire Line
+	8800 2700 9400 2700
+Connection ~ 8800 2400
+$Comp
+L Isolator:PC817 U?
+U 1 1 61FB9B93
+P 9700 4000
+F 0 "U?" V 9654 4188 50  0000 L CNN
+F 1 "PC817" V 9745 4188 50  0000 L CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 9500 3800 50  0001 L CIN
+F 3 "http://www.soselectronic.cz/a_info/resource/d/pc817.pdf" H 9700 4000 50  0001 L CNN
+	1    9700 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61FBB248
+P 9800 3250
+F 0 "R?" H 9870 3296 50  0000 L CNN
+F 1 "R" H 9870 3205 50  0000 L CNN
+F 2 "" V 9730 3250 50  0001 C CNN
+F 3 "~" H 9800 3250 50  0001 C CNN
+	1    9800 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 3100 9800 2700
+Connection ~ 9800 2700
+Wire Wire Line
+	9800 3400 9800 3700
+Wire Wire Line
+	9250 2800 9250 3450
+Wire Wire Line
+	9250 3450 9600 3450
+Wire Wire Line
+	9600 3450 9600 3700
+Connection ~ 9250 2800
+Wire Wire Line
+	9600 4300 9600 4600
+$Comp
+L power:GND #PWR?
+U 1 1 620231C3
+P 9600 4600
+F 0 "#PWR?" H 9600 4350 50  0001 C CNN
+F 1 "GND" H 9605 4427 50  0000 C CNN
+F 2 "" H 9600 4600 50  0001 C CNN
+F 3 "" H 9600 4600 50  0001 C CNN
+	1    9600 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62023657
+P 10300 4150
+F 0 "R?" H 10370 4196 50  0000 L CNN
+F 1 "10k" H 10370 4105 50  0000 L CNN
+F 2 "" V 10230 4150 50  0001 C CNN
+F 3 "~" H 10300 4150 50  0001 C CNN
+	1    10300 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 62024135
+P 10300 3900
+F 0 "#PWR?" H 10300 3750 50  0001 C CNN
+F 1 "+5V" H 10315 4073 50  0000 C CNN
+F 2 "" H 10300 3900 50  0001 C CNN
+F 3 "" H 10300 3900 50  0001 C CNN
+	1    10300 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 3900 10300 4000
+Wire Wire Line
+	10500 4450 10300 4450
+Wire Wire Line
+	9800 4450 9800 4300
+Wire Wire Line
+	10300 4300 10300 4450
+Connection ~ 10300 4450
+Wire Wire Line
+	10300 4450 9800 4450
 $EndSCHEMATC
