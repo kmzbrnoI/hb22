@@ -149,13 +149,13 @@ Wire Wire Line
 	5600 5500 5500 5500
 Wire Wire Line
 	5500 5500 5500 5600
-Text GLabel 4600 5900 0    50   Input ~ 0
+Text GLabel 4200 5900 0    50   Input ~ 0
 MISO
-Text GLabel 4600 6000 0    50   Input ~ 0
+Text GLabel 4200 6000 0    50   Input ~ 0
 MOSI
-Text GLabel 4600 6100 0    50   Input ~ 0
+Text GLabel 4200 6100 0    50   Input ~ 0
 SCK
-Text GLabel 4600 6200 0    50   Input ~ 0
+Text GLabel 4200 6200 0    50   Input ~ 0
 RESET
 Wire Wire Line
 	6000 3300 6100 3300
@@ -347,12 +347,6 @@ LED-GREEN
 Text Label 6100 2200 0    50   ~ 0
 LED-RED
 Wire Wire Line
-	5000 6000 4600 6000
-Wire Wire Line
-	5000 6100 4600 6100
-Wire Wire Line
-	5000 6200 4600 6200
-Wire Wire Line
 	6000 3200 6100 3200
 Wire Wire Line
 	6000 3100 6100 3100
@@ -412,8 +406,6 @@ Wire Wire Line
 Wire Wire Line
 	7100 3500 7000 3500
 Connection ~ 7000 3500
-Wire Wire Line
-	4600 5900 5000 5900
 Text GLabel 6100 2500 2    50   Input ~ 0
 SCK
 Text HLabel 6100 3300 2    50   BiDi ~ 0
@@ -674,4 +666,59 @@ Text Label 4700 2300 2    50   ~ 0
 VINREF
 Text Notes 4250 1350 0    50   ~ 0
 <- 1.5 mA
+$Comp
+L Power_Protection:SP0505BAJT D21
+U 1 1 61DEFEDE
+P 4600 6550
+AR Path="/61CC7683/61DEFEDE" Ref="D21"  Part="1" 
+AR Path="/61EDD3FC/61DEFEDE" Ref="D?"  Part="1" 
+F 0 "D21" H 4905 6596 50  0000 L CNN
+F 1 "SMF05" H 4905 6505 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 4900 6500 50  0001 L CNN
+F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 4725 6675 50  0001 C CNN
+	1    4600 6550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 61DEFEE4
+P 4600 6750
+AR Path="/61CC7683/61DEFEE4" Ref="#PWR010"  Part="1" 
+AR Path="/61EDD3FC/61DEFEE4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR010" H 4600 6500 50  0001 C CNN
+F 1 "GND" H 4605 6577 50  0000 C CNN
+F 2 "" H 4600 6750 50  0001 C CNN
+F 3 "" H 4600 6750 50  0001 C CNN
+	1    4600 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 5900 4500 5900
+Wire Wire Line
+	4200 6000 4600 6000
+Wire Wire Line
+	4200 6100 4700 6100
+Wire Wire Line
+	4200 6200 4800 6200
+Wire Wire Line
+	4800 6350 4800 6200
+Connection ~ 4800 6200
+Wire Wire Line
+	4800 6200 5000 6200
+Wire Wire Line
+	4700 6350 4700 6100
+Connection ~ 4700 6100
+Wire Wire Line
+	4700 6100 5000 6100
+Wire Wire Line
+	4600 6000 4600 6350
+Connection ~ 4600 6000
+Wire Wire Line
+	4600 6000 5000 6000
+Wire Wire Line
+	4500 6350 4500 5900
+Connection ~ 4500 5900
+Wire Wire Line
+	4500 5900 5000 5900
+NoConn ~ 4400 6350
 $EndSCHEMATC
