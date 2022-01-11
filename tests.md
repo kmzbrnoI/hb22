@@ -22,3 +22,4 @@ Testovací scénáře zesilovače HB22
 * Spojení výstupů HB22 a jiného zesilovače překřížené
   - Galvanicky spojené zesilovače
   - Galvanicky rozpojené zesilovače
+* Elektrostatický impuls na IO konektorech
