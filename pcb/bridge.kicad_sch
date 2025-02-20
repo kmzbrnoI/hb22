@@ -4798,7 +4798,7 @@
 		(uuid "eb14ae89-b776-4a7c-b1cb-51227ede5631")
 	)
 	(global_label "U2+"
-		(shape input)
+		(shape output)
 		(at 271.78 50.8 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4842,7 +4842,7 @@
 		)
 	)
 	(global_label "U1+"
-		(shape input)
+		(shape output)
 		(at 238.76 50.8 0)
 		(fields_autoplaced yes)
 		(effects
