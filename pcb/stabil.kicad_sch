@@ -5736,17 +5736,6 @@
 		)
 		(uuid "52fe3400-bf18-4fe5-aa6e-2be779b65697")
 	)
-	(text "TMPA1265SP-101MN-D"
-		(exclude_from_sim no)
-		(at 133.35 22.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "61415144-ce8f-483a-82b7-e2e320f7f0b4")
-	)
 	(text "Sense temperature of\nU11, L1, Q10"
 		(exclude_from_sim no)
 		(at 107.95 82.55 0)
@@ -8785,6 +8774,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLC" "TMPA1265SP-101MN-D"
+			(at 140.97 22.86 90)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

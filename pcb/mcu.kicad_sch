@@ -3722,7 +3722,7 @@
 		(uuid "eb6a726e-fed9-4891-95fa-b4d4a5f77b35")
 	)
 	(global_label "SCK"
-		(shape input)
+		(shape bidirectional)
 		(at 106.68 154.94 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3733,7 +3733,7 @@
 		)
 		(uuid "2028d85e-9e27-4758-8c0b-559fad072813")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.5995 154.94 0)
+			(at 99.647 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3744,7 +3744,7 @@
 		)
 	)
 	(global_label "SCK"
-		(shape input)
+		(shape bidirectional)
 		(at 154.94 63.5 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3755,7 +3755,7 @@
 		)
 		(uuid "348dc703-3cab-4547-b664-e8b335a6083c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.0205 63.5 0)
+			(at 161.973 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3766,7 +3766,7 @@
 		)
 	)
 	(global_label "RESET"
-		(shape input)
+		(shape output)
 		(at 106.68 157.48 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3788,7 +3788,7 @@
 		)
 	)
 	(global_label "MISO"
-		(shape input)
+		(shape bidirectional)
 		(at 106.68 149.86 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3799,7 +3799,7 @@
 		)
 		(uuid "be5a7017-fe9d-43ea-9a6a-8fe8deb78420")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.7528 149.86 0)
+			(at 98.8003 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3810,7 +3810,7 @@
 		)
 	)
 	(global_label "MOSI"
-		(shape input)
+		(shape bidirectional)
 		(at 106.68 152.4 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3821,7 +3821,7 @@
 		)
 		(uuid "c20aea50-e9e4-4978-b938-d613d445aab7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.7528 152.4 0)
+			(at 98.8003 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3832,7 +3832,7 @@
 		)
 	)
 	(global_label "MISO"
-		(shape input)
+		(shape bidirectional)
 		(at 154.94 60.96 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3843,7 +3843,7 @@
 		)
 		(uuid "cd50b8dc-829d-4a1d-8f2a-6471f378ba87")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.8672 60.96 0)
+			(at 162.8197 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3876,7 +3876,7 @@
 		)
 	)
 	(global_label "MOSI"
-		(shape input)
+		(shape bidirectional)
 		(at 154.94 58.42 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3887,7 +3887,7 @@
 		)
 		(uuid "facb0614-068b-4c9c-a466-d374df96a94c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.8672 58.42 0)
+			(at 162.8197 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
