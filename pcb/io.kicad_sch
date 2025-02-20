@@ -5,8 +5,14 @@
 	(uuid "6aa022fb-09ce-49d9-86b1-c73b3ee817e2")
 	(paper "A4")
 	(title_block
-		(title "HB22 – IO")
-		(comment 4 "Booster inputs & outputs")
+		(title "HB22 – DCC booster")
+		(date "2025-02-20")
+		(rev "1.0")
+		(company "Model Railroader Club Brno I – KMŽ Brno I – https://kmz-brno.cz/")
+		(comment 1 "Jan Horáček")
+		(comment 2 "https://github.com/kmzbrnoI/hb22")
+		(comment 3 "https://creativecommons.org/licenses/by-sa/4.0/")
+		(comment 4 "Released under the Creative Commons Attribution-ShareAlike 4.0 License")
 	)
 	(lib_symbols
 		(symbol "Connector:RJ18"
