@@ -4102,7 +4102,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 55.88) (xy 198.12 55.88)
+			(xy 204.47 55.88) (xy 170.18 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4202,7 +4202,7 @@
 	)
 	(polyline
 		(pts
-			(xy 182.88 16.51) (xy 182.88 87.63)
+			(xy 152.4 16.51) (xy 152.4 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4232,7 +4232,7 @@
 	)
 	(polyline
 		(pts
-			(xy 182.88 87.63) (xy 279.4 87.63)
+			(xy 152.4 87.63) (xy 279.4 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4742,7 +4742,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 53.34) (xy 222.25 53.34)
+			(xy 170.18 53.34) (xy 222.25 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4772,7 +4772,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 53.34) (xy 111.76 53.34)
+			(xy 104.14 53.34) (xy 119.38 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4812,7 +4812,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 147.32) (xy 259.08 147.32)
+			(xy 231.14 147.32) (xy 259.08 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4842,7 +4842,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 147.32) (xy 232.41 147.32)
+			(xy 223.52 147.32) (xy 170.18 147.32)
 		)
 		(stroke
 			(width 0)
@@ -4882,7 +4882,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 149.86) (xy 259.08 149.86)
+			(xy 231.14 149.86) (xy 259.08 149.86)
 		)
 		(stroke
 			(width 0)
@@ -5092,7 +5092,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 58.42) (xy 198.12 58.42)
+			(xy 201.93 58.42) (xy 170.18 58.42)
 		)
 		(stroke
 			(width 0)
@@ -5212,7 +5212,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 149.86) (xy 238.76 149.86)
+			(xy 170.18 149.86) (xy 223.52 149.86)
 		)
 		(stroke
 			(width 0)
@@ -5252,7 +5252,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 50.8) (xy 224.79 50.8)
+			(xy 170.18 50.8) (xy 224.79 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5403,12 +5403,12 @@
 	)
 	(text "Irreversible"
 		(exclude_from_sim no)
-		(at 237.49 158.75 0)
+		(at 227.33 158.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify bottom)
 		)
 		(uuid "2cd2fee2-51b2-4fcd-8c94-c435e6791358")
 	)
@@ -5450,20 +5450,20 @@
 		(at 264.16 144.78 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.54 2.54)
 			)
 			(justify right bottom)
 		)
 		(uuid "83d85a81-e014-4ee9-9433-a9a045c80893")
 	)
-	(text "Expansion PCB"
+	(text "Expansion PCB connection"
 		(exclude_from_sim no)
 		(at 219.71 22.86 0)
 		(effects
 			(font
 				(size 2.54 2.54)
 			)
-			(justify left bottom)
+			(justify bottom)
 		)
 		(uuid "89bd1fdd-6a91-474e-8495-7a2ba7eb6260")
 	)
@@ -5684,7 +5684,7 @@
 	)
 	(hierarchical_label "J"
 		(shape input)
-		(at 232.41 149.86 180)
+		(at 170.18 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5695,7 +5695,7 @@
 	)
 	(hierarchical_label "B-TO-EXP"
 		(shape input)
-		(at 198.12 58.42 180)
+		(at 170.18 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5706,7 +5706,7 @@
 	)
 	(hierarchical_label "SCL"
 		(shape bidirectional)
-		(at 198.12 53.34 180)
+		(at 170.18 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5717,7 +5717,7 @@
 	)
 	(hierarchical_label "EXP-TO-B"
 		(shape output)
-		(at 198.12 55.88 180)
+		(at 170.18 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5728,7 +5728,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
-		(at 198.12 50.8 180)
+		(at 170.18 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5739,7 +5739,7 @@
 	)
 	(hierarchical_label "K"
 		(shape input)
-		(at 232.41 147.32 180)
+		(at 170.18 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5772,7 +5772,7 @@
 	)
 	(hierarchical_label "L-DCC"
 		(shape output)
-		(at 111.76 53.34 0)
+		(at 119.38 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9192,7 +9192,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 242.57 147.32 270)
+		(at 227.33 147.32 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9200,7 +9200,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006234f9fa")
 		(property "Reference" "F3"
-			(at 242.57 142.3162 90)
+			(at 227.33 142.3162 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9208,7 +9208,7 @@
 			)
 		)
 		(property "Value" "3.15A"
-			(at 242.57 144.6276 90)
+			(at 227.33 144.6276 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9216,7 +9216,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuseholder_Cylinder-5x20mm_Stelvio-Kontek_PTF78_Horizontal_Open"
-			(at 242.57 145.542 90)
+			(at 227.33 145.542 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9225,7 +9225,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 242.57 147.32 0)
+			(at 227.33 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9234,7 +9234,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 242.57 147.32 0)
+			(at 227.33 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9259,7 +9259,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 242.57 149.86 270)
+		(at 227.33 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9267,7 +9267,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006234fef0")
 		(property "Reference" "F4"
-			(at 242.57 154.94 90)
+			(at 227.33 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9275,7 +9275,7 @@
 			)
 		)
 		(property "Value" "3.15A"
-			(at 242.57 152.4 90)
+			(at 227.33 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9283,7 +9283,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuseholder_Cylinder-5x20mm_Stelvio-Kontek_PTF78_Horizontal_Open"
-			(at 242.57 148.082 90)
+			(at 227.33 148.082 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9292,7 +9292,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 242.57 149.86 0)
+			(at 227.33 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9301,7 +9301,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 242.57 149.86 0)
+			(at 227.33 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
