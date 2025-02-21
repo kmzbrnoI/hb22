@@ -380,9 +380,15 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLC",
+          "name": "JLC",
+          "show": false
         }
       ],
-      "filter_string": "41",
+      "filter_string": "",
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
