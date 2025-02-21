@@ -4818,7 +4818,7 @@
 		)
 		(uuid "c94b6f38-b2c7-494d-9fba-9edbdd8e122a")
 	)
-	(text "H-bridge temperature sense\nI2C addr: 0x91"
+	(text "H-bridge temperature sense"
 		(exclude_from_sim no)
 		(at 90.17 152.4 0)
 		(effects
@@ -9763,19 +9763,21 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006248b980")
 		(property "Reference" "U10"
-			(at 83.82 162.56 0)
+			(at 87.63 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "LM75B"
-			(at 83.82 165.1 0)
+			(at 87.63 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
@@ -9803,6 +9805,16 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "I2C addr" "0x91"
+			(at 87.63 160.02 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(pin "1"
