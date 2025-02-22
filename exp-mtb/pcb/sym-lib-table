@@ -1,5 +1,4 @@
 (sym_lib_table
   (version 7)
   (lib (name "Interface_I2C")(type "Legacy")(uri "${KIPRJMOD}/Interface_I2C.lib")(options "")(descr ""))
-  (lib (name "exp-mtb-rescue")(type "KiCad")(uri "${KIPRJMOD}/exp-mtb-rescue.kicad_sym")(options "")(descr ""))
 )
