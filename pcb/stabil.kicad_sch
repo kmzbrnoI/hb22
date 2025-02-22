@@ -7909,7 +7909,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_TaiTech_TMPC1265_13.5x12.5mm"
 			(at 135.89 30.48 0)
 			(effects
 				(font
