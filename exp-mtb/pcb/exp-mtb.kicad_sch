@@ -4484,7 +4484,7 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:L78L05_SOT89"
+		(symbol "Regulator_Linear:KA78M05_TO252"
 			(pin_names
 				(offset 0.254)
 			)
@@ -4499,8 +4499,8 @@
 					)
 				)
 			)
-			(property "Value" "L78L05_SOT89"
-				(at -0.635 3.175 0)
+			(property "Value" "KA78M05_TO252"
+				(at 0 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4508,8 +4508,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
-				(at 0 5.08 0)
+			(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+				(at 0 5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4518,7 +4518,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf"
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC78M00-D.PDF"
 				(at 0 -1.27 0)
 				(effects
 					(font
@@ -4527,7 +4527,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89"
+			(property "Description" "Positive 500mA 35V Linear Regulator, Fixed Output 5V, TO-252 (D-PAK)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4536,7 +4536,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Voltage Regulator 100mA Positive"
+			(property "ki_keywords" "Voltage Regulator 500mA Positive"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4545,7 +4545,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?89*"
+			(property "ki_fp_filters" "TO?252*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4554,7 +4554,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "L78L05_SOT89_0_1"
+			(symbol "KA78M05_TO252_0_1"
 				(rectangle
 					(start -5.08 1.905)
 					(end 5.08 -5.08)
@@ -4567,11 +4567,11 @@
 					)
 				)
 			)
-			(symbol "L78L05_SOT89_1_1"
-				(pin power_out line
-					(at 7.62 0 180)
+			(symbol "KA78M05_TO252_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
 					(length 2.54)
-					(name "OUT"
+					(name "VI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4604,10 +4604,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -7.62 0 0)
+				(pin power_out line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "IN"
+					(name "VO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7689,17 +7689,6 @@
 		)
 		(uuid "ff1283a4-4563-447d-9170-e1b3b2960504")
 	)
-	(text "30V max"
-		(exclude_from_sim no)
-		(at 170.18 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8d9ed0b6-4d01-4792-926b-c1181f7deace")
-	)
 	(text "Booster potential"
 		(exclude_from_sim no)
 		(at 214.63 107.95 0)
@@ -9630,7 +9619,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "BZX84C30"
+		(property "Value" "BZX84C18"
 			(at 207.01 140.97 90)
 			(effects
 				(font
@@ -10384,7 +10373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H4.3mm"
 			(at 107.95 100.33 0)
 			(effects
 				(font
@@ -12666,7 +12655,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:L78L05_SOT89")
+		(lib_id "Regulator_Linear:KA78M05_TO252")
 		(at 173.99 135.89 0)
 		(mirror y)
 		(unit 1)
@@ -12683,7 +12672,7 @@
 				)
 			)
 		)
-		(property "Value" "L78L05_SOT89"
+		(property "Value" "78M05"
 			(at 173.99 132.0546 0)
 			(effects
 				(font
@@ -12691,8 +12680,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
-			(at 173.99 130.81 0)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(at 173.99 130.175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12701,7 +12690,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC78M00-D.PDF"
 			(at 173.99 137.16 0)
 			(effects
 				(font
@@ -12710,7 +12699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 5V, SOT-89"
+		(property "Description" "Positive 500mA 35V Linear Regulator, Fixed Output 5V, TO-252 (D-PAK)"
 			(at 173.99 135.89 0)
 			(effects
 				(font
@@ -14803,7 +14792,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D3.50mm_Drill1.4mm_Beaded"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
 			(at 135.89 180.34 0)
 			(effects
 				(font
@@ -16410,7 +16399,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 157.48 177.8 0)
 			(effects
 				(font
@@ -16474,7 +16463,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 157.48 182.88 0)
 			(effects
 				(font
@@ -16537,7 +16526,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 162.56 177.8 0)
 			(effects
 				(font
@@ -16600,7 +16589,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 162.56 182.88 0)
 			(effects
 				(font
