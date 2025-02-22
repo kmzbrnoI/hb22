@@ -4852,7 +4852,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 58.42) (xy 217.17 58.42)
+			(xy 208.28 58.42) (xy 217.17 58.42)
 		)
 		(stroke
 			(width 0)
@@ -5222,7 +5222,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 58.42) (xy 170.18 58.42)
+			(xy 200.66 58.42) (xy 170.18 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6497,73 +6497,6 @@
 			(project ""
 				(path "/99e6b8eb-b08e-4d42-84dd-8b7f6765b7b7/00000000-0000-0000-0000-000061edd3fc"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 205.74 58.42 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061ef1a09")
-		(property "Reference" "R11"
-			(at 205.74 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "250R"
-			(at 205.74 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 205.74 56.642 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 205.74 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e21f7dc5-0431-43e6-9026-dd9a6d936c70")
-		)
-		(pin "2"
-			(uuid "d779c456-a91f-4fb4-816d-8a6bdde45438")
-		)
-		(instances
-			(project ""
-				(path "/99e6b8eb-b08e-4d42-84dd-8b7f6765b7b7/00000000-0000-0000-0000-000061edd3fc"
-					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -9649,6 +9582,74 @@
 			(project ""
 				(path "/99e6b8eb-b08e-4d42-84dd-8b7f6765b7b7/00000000-0000-0000-0000-000061edd3fc"
 					(reference "#FLG0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 204.47 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc9e98c5-382b-4a30-9805-4271faf63485")
+		(property "Reference" "F5"
+			(at 204.47 63.9615 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20 mA"
+			(at 204.47 61.5372 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 204.47 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 204.47 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f654469b-784f-484b-84cc-a07ddaaa1359")
+		)
+		(pin "2"
+			(uuid "15bd1fc5-433e-41c4-bcbb-624a0dd18476")
+		)
+		(instances
+			(project ""
+				(path "/99e6b8eb-b08e-4d42-84dd-8b7f6765b7b7/00000000-0000-0000-0000-000061edd3fc"
+					(reference "F5")
 					(unit 1)
 				)
 			)

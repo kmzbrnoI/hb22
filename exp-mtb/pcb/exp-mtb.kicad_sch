@@ -13571,7 +13571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-4_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-4_W8.89mm_SMDSocket_LongPads"
 			(at 175.26 123.19 0)
 			(effects
 				(font
@@ -14159,82 +14159,6 @@
 			(project ""
 				(path "/c8202966-70b9-4a21-a8e6-68d3d7f3ade9"
 					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 222.25 67.31 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000062376ab6")
-		(property "Reference" "R18"
-			(at 222.25 62.0522 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330R"
-			(at 222.25 64.3636 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 222.25 65.532 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 222.25 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17513"
-			(at 222.25 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "689090e9-24fe-41bf-a89c-d1dca74910eb")
-		)
-		(pin "2"
-			(uuid "522d07cb-bbf3-4019-b263-20d0d348de2c")
-		)
-		(instances
-			(project ""
-				(path "/c8202966-70b9-4a21-a8e6-68d3d7f3ade9"
-					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -15140,7 +15064,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-8_W8.89mm_SMDSocket_LongPads"
 			(at 182.88 80.01 0)
 			(effects
 				(font
@@ -15235,7 +15159,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Package_DIP:DIP-8_W8.89mm_SMDSocket_LongPads"
 			(at 177.8 109.22 0)
 			(effects
 				(font
@@ -16707,6 +16631,75 @@
 			(project ""
 				(path "/c8202966-70b9-4a21-a8e6-68d3d7f3ade9"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 222.25 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34318180-56dc-49e3-bcb9-24e9ea625711")
+		(property "Reference" "F2"
+			(at 222.25 61.7685 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20 mA"
+			(at 222.25 64.1928 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 222.25 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72e39caa-9499-4b58-856a-c5e13dde7b55")
+		)
+		(pin "2"
+			(uuid "09197901-3ecc-45db-95d4-182a8cb27247")
+		)
+		(instances
+			(project ""
+				(path "/c8202966-70b9-4a21-a8e6-68d3d7f3ade9"
+					(reference "F2")
 					(unit 1)
 				)
 			)
