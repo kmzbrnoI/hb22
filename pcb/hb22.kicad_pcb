@@ -20550,6 +20550,361 @@
 			)
 		)
 	)
+	(footprint "Heatsink:Heatsink_Fischer_FK24413DPAK_23x13mm"
+		(layer "F.Cu")
+		(uuid "6f18c0a3-3e78-4a9f-8245-d7da9373bf51")
+		(at 246.8 92)
+		(descr "23x13 mm SMD heatsink for TO-252 TO-263 TO-268, https://www.fischerelektronik.de/pim/upload/fischerData/cadpdf/base/fk_244_13_d_pak.pdf")
+		(tags "heatsink TO-252 TO-263 TO-268")
+		(property "Reference" "HS5"
+			(at -9.5 -7.5 180)
+			(layer "F.SilkS")
+			(uuid "446a4650-4377-449d-b25a-b1d618961bdf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "FK24413"
+			(at 0 8 0)
+			(layer "F.Fab")
+			(uuid "ffc59931-4f74-44e5-afb0-bef98aeb5671")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Heatsink:Heatsink_Fischer_FK24413DPAK_23x13mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f46c9180-a477-4fac-917f-7f818681ce68")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f5e611c-8755-450b-8fa7-dd2a6f1007f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Heatsink with electrical connection, 1 pin"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b3aa77a1-d1e0-4273-899b-7d183ed56c98")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Heatsink_*")
+		(path "/00000000-0000-0000-0000-000061cf16a7/c3351db8-9832-426e-98ad-88097e4ea3b0")
+		(sheetname "Bridge")
+		(sheetfile "bridge.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -11.62 -6.62)
+			(end -8.1 -6.62)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a212a154-e022-4efa-9c30-c22e5e74ff32")
+		)
+		(fp_line
+			(start -11.62 6.62)
+			(end -11.62 -6.62)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f735ef5a-c215-40d1-b925-19738301b862")
+		)
+		(fp_line
+			(start -11.62 6.62)
+			(end -8.1 6.62)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a7589d4e-e68e-4e70-ad75-ab83b7f41220")
+		)
+		(fp_line
+			(start 8.1 -6.62)
+			(end 11.62 -6.62)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "16a9a583-2489-4ba2-ae22-6add4638c829")
+		)
+		(fp_line
+			(start 8.1 6.62)
+			(end 11.62 6.62)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "52fde6f4-753d-4e78-8a84-2fe4368ce469")
+		)
+		(fp_line
+			(start 11.62 -6.62)
+			(end 11.62 6.62)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c4afdb9e-6278-48da-b37c-5a4cf70a54c6")
+		)
+		(fp_line
+			(start -11.4 -6.4)
+			(end -8 -6.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Cmts.User")
+			(uuid "bf8405ee-f4e3-474a-853d-2111fd2657b0")
+		)
+		(fp_line
+			(start -11.4 6.4)
+			(end -11.4 -6.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Cmts.User")
+			(uuid "12d0eb7b-10a2-498e-86d5-0df454e2682e")
+		)
+		(fp_line
+			(start -8 -6.4)
+			(end -8 6.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Cmts.User")
+			(uuid "8c23f2f5-ff2a-4ab6-ad74-d4d38b29935b")
+		)
+		(fp_line
+			(start -8 6.4)
+			(end -11.4 6.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Cmts.User")
+			(uuid "b0cda232-e1a4-44b8-88d8-b6991b4ac79f")
+		)
+		(fp_line
+			(start 8 6.4)
+			(end 8 -6.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Cmts.User")
+			(uuid "e7e59650-12e8-4dad-8e23-ed3f0d748563")
+		)
+		(fp_line
+			(start 8 6.4)
+			(end 11.4 6.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Cmts.User")
+			(uuid "95b8e570-ac82-45d7-b637-5ff6613a6307")
+		)
+		(fp_line
+			(start 11.4 -6.4)
+			(end 8 -6.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Cmts.User")
+			(uuid "43230ded-a03b-4630-b3c3-d5ed24ec0cfd")
+		)
+		(fp_line
+			(start 11.4 6.4)
+			(end 11.4 -6.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Cmts.User")
+			(uuid "3bd10d42-731d-417a-b64b-e56a2876d201")
+		)
+		(fp_line
+			(start -12 -7)
+			(end -12 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f8b4b618-ff25-461b-80be-d77706e47180")
+		)
+		(fp_line
+			(start -12 -7)
+			(end 12 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "66d221cd-eacc-4d5e-bf75-4d354b115c07")
+		)
+		(fp_line
+			(start 12 7)
+			(end -12 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e958d4dc-14f9-490b-91bc-2c48c4ca01db")
+		)
+		(fp_line
+			(start 12 7)
+			(end 12 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ab43b664-bbd8-4c67-94e9-05abc69e30d1")
+		)
+		(fp_line
+			(start -11.5 -6.5)
+			(end 11.5 -6.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fcc62b05-407a-4e6a-be95-c103f241086d")
+		)
+		(fp_line
+			(start -11.5 6.5)
+			(end -11.5 -6.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "47a3e25b-08ce-4008-9fb2-f487f55e550f")
+		)
+		(fp_line
+			(start 11.5 -6.5)
+			(end 11.5 6.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ede97ae2-2361-44c4-9f0f-db090ae2d5b0")
+		)
+		(fp_line
+			(start 11.5 6.5)
+			(end -11.5 6.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f2156a7c-0fdd-4ad5-a37a-8ae6fb9524c3")
+		)
+		(fp_text user "H10mm"
+			(at 9.5 0 90)
+			(layer "Cmts.User")
+			(uuid "0a85c56f-70d7-4c76-b233-b067b90c9c86")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "H10mm"
+			(at -9.5 0 90)
+			(layer "Cmts.User")
+			(uuid "da6a603e-9f7a-4be4-8c07-9b2c4a5ac85a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "ec742c14-7852-47d9-8306-f317ce497e7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -6.2 0 180)
+			(size 3.25 13.2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 8 "/Bridge/V+")
+			(pintype "passive")
+			(zone_connect 2)
+			(uuid "bf32ba47-7c89-4068-aa17-ba2ec8ea22fc")
+		)
+		(pad "1" smd rect
+			(at 6.2 0)
+			(size 3.25 13.2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 8 "/Bridge/V+")
+			(pintype "passive")
+			(zone_connect 2)
+			(uuid "7a51460c-f312-4693-a781-297baa2a68ac")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Heatsink.3dshapes/Heatsink_Fischer_FK24413DPAK_23x13mm.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Package_DIP:DIP-14_W8.89mm_SMDSocket_LongPads"
 		(layer "F.Cu")
 		(uuid "6f94a9f2-8ff7-41d5-8e97-02423c9b59d6")
@@ -21192,6 +21547,361 @@
 			(uuid "8f1d4bbb-c2d4-46bb-b363-451315a95bde")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Heatsink:Heatsink_Fischer_FK24413DPAK_23x13mm"
+		(layer "F.Cu")
+		(uuid "723ea555-b151-4a41-800e-6bb0a13aa538")
+		(at 246.8 61.9)
+		(descr "23x13 mm SMD heatsink for TO-252 TO-263 TO-268, https://www.fischerelektronik.de/pim/upload/fischerData/cadpdf/base/fk_244_13_d_pak.pdf")
+		(tags "heatsink TO-252 TO-263 TO-268")
+		(property "Reference" "HS3"
+			(at -9.5 -7.5 180)
+			(layer "F.SilkS")
+			(uuid "52b95ee7-b58d-4e6d-9506-989e5eef7fe9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "FK24413"
+			(at 0 8 0)
+			(layer "F.Fab")
+			(uuid "3f8031b9-b6d2-4702-b949-81b20a39b85e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Heatsink:Heatsink_Fischer_FK24413DPAK_23x13mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "065c054c-5ed7-4fde-a21e-0b69c714b8c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "437531bc-0be6-4033-8de8-38667876ee39")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Heatsink with electrical connection, 1 pin"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4572477-3505-46fc-a6cf-ca442c47dbed")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Heatsink_*")
+		(path "/00000000-0000-0000-0000-000061cf16a7/89daf828-ef23-4f2b-9a4b-70e41b5b82c2")
+		(sheetname "Bridge")
+		(sheetfile "bridge.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -11.62 -6.62)
+			(end -8.1 -6.62)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a8acabd5-8d1b-4059-adf4-db3fa87121f6")
+		)
+		(fp_line
+			(start -11.62 6.62)
+			(end -11.62 -6.62)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "58fda8bc-99f2-4acc-89f1-a659f3072e68")
+		)
+		(fp_line
+			(start -11.62 6.62)
+			(end -8.1 6.62)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "159839f3-0355-4f99-ad60-d858cffda32e")
+		)
+		(fp_line
+			(start 8.1 -6.62)
+			(end 11.62 -6.62)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "98771b3d-b421-4847-b46d-05fb3f9675f5")
+		)
+		(fp_line
+			(start 8.1 6.62)
+			(end 11.62 6.62)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f01f3847-152b-4875-b124-dc18af3d3777")
+		)
+		(fp_line
+			(start 11.62 -6.62)
+			(end 11.62 6.62)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "52791c94-6590-4e50-8b2e-3c70da82f491")
+		)
+		(fp_line
+			(start -11.4 -6.4)
+			(end -8 -6.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Cmts.User")
+			(uuid "ae73233b-aafd-4ca4-8979-b156a6e003ef")
+		)
+		(fp_line
+			(start -11.4 6.4)
+			(end -11.4 -6.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Cmts.User")
+			(uuid "8ed9be4c-76cd-4406-b4a7-37c58cec97e9")
+		)
+		(fp_line
+			(start -8 -6.4)
+			(end -8 6.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Cmts.User")
+			(uuid "6425459f-5fcb-410c-9dad-8d38acc2bbe9")
+		)
+		(fp_line
+			(start -8 6.4)
+			(end -11.4 6.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Cmts.User")
+			(uuid "9359e97c-8366-4695-8260-3229e8063d61")
+		)
+		(fp_line
+			(start 8 6.4)
+			(end 8 -6.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Cmts.User")
+			(uuid "3527d429-bfb6-461f-9ee5-e58deb02cc16")
+		)
+		(fp_line
+			(start 8 6.4)
+			(end 11.4 6.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Cmts.User")
+			(uuid "d110bcea-9aa6-49d0-8dc4-9c1e889333a2")
+		)
+		(fp_line
+			(start 11.4 -6.4)
+			(end 8 -6.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Cmts.User")
+			(uuid "fb572f79-e8ce-4ff3-b64b-6964d4b0ddca")
+		)
+		(fp_line
+			(start 11.4 6.4)
+			(end 11.4 -6.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Cmts.User")
+			(uuid "1af1f608-d734-4aa0-87b9-bd1ded90f2be")
+		)
+		(fp_line
+			(start -12 -7)
+			(end -12 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "82d96008-67e2-442a-8e5c-2de15178018d")
+		)
+		(fp_line
+			(start -12 -7)
+			(end 12 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "21ab544e-af83-4dc2-b5bc-cefdadff8629")
+		)
+		(fp_line
+			(start 12 7)
+			(end -12 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "96ee7b4b-96f6-476e-8afa-d122dbdd41a3")
+		)
+		(fp_line
+			(start 12 7)
+			(end 12 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "faf444a1-582b-416f-99d0-29d6d9ac3865")
+		)
+		(fp_line
+			(start -11.5 -6.5)
+			(end 11.5 -6.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a3fc7090-1a86-42cc-8293-f715fa7a208f")
+		)
+		(fp_line
+			(start -11.5 6.5)
+			(end -11.5 -6.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "39ed5dab-e4a6-4309-b3cd-d8fb5559ca39")
+		)
+		(fp_line
+			(start 11.5 -6.5)
+			(end 11.5 6.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "92b4385f-a4ba-42e3-8187-1229de99e572")
+		)
+		(fp_line
+			(start 11.5 6.5)
+			(end -11.5 6.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fa9aaad8-1213-421c-8fa4-734643246503")
+		)
+		(fp_text user "H10mm"
+			(at 9.5 0 90)
+			(layer "Cmts.User")
+			(uuid "7cf9b79a-b6dc-4393-b71a-75b0223c8390")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "H10mm"
+			(at -9.5 0 90)
+			(layer "Cmts.User")
+			(uuid "cf9a51f0-8a70-4d8a-8a7f-001e0e41d089")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "8413cc7e-9833-452c-99e1-ec413e900b8d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -6.2 0 180)
+			(size 3.25 13.2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 12 "/K")
+			(pintype "passive")
+			(zone_connect 2)
+			(uuid "a6a5c350-6361-46a7-a833-5b20c97f8281")
+		)
+		(pad "1" smd rect
+			(at 6.2 0)
+			(size 3.25 13.2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 12 "/K")
+			(pintype "passive")
+			(zone_connect 2)
+			(uuid "1cfc7b53-c5db-4650-8429-4efec678ad60")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Heatsink.3dshapes/Heatsink_Fischer_FK24413DPAK_23x13mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -31328,6 +32038,219 @@
 			)
 		)
 	)
+	(footprint "Fuse:Fuse_1206_3216Metric"
+		(layer "F.Cu")
+		(uuid "a782cab7-4d67-4d47-8ff0-eb26a4ea529f")
+		(at 170.6 98)
+		(descr "Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+		(tags "fuse")
+		(property "Reference" "F5"
+			(at 0 -1.82 0)
+			(layer "F.SilkS")
+			(uuid "7ede13e8-d792-44b0-9a6f-605c8f0d7b25")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "20 mA"
+			(at 0 1.82 0)
+			(layer "F.Fab")
+			(uuid "6608e82e-a987-406c-9623-380cb2f17624")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f09de4c4-594c-485c-bbbf-cd2c09c2d922")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b018a4a-50e6-4c6d-b0a0-fdaa624ba8d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "277ae44d-9feb-4acc-a96b-e1a9bd42bcaf")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "*polyfuse* *PTC*")
+		(path "/00000000-0000-0000-0000-000061edd3fc/bc9e98c5-382b-4a30-9805-4271faf63485")
+		(sheetname "IO")
+		(sheetfile "io.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -0.602064 -0.91)
+			(end 0.602064 -0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c5d70abe-a9e9-46b9-9209-fbdf5fe21c6f")
+		)
+		(fp_line
+			(start -0.602064 0.91)
+			(end 0.602064 0.91)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a39b0887-e0a6-4be7-bec0-f3bceb3728e6")
+		)
+		(fp_line
+			(start -2.28 -1.12)
+			(end 2.28 -1.12)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b84c7578-285d-483b-b912-f5c0e4168b77")
+		)
+		(fp_line
+			(start -2.28 1.12)
+			(end -2.28 -1.12)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3abe120c-df74-4af6-8b8e-216aec2b82a2")
+		)
+		(fp_line
+			(start 2.28 -1.12)
+			(end 2.28 1.12)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0910fb73-d19f-48d7-bfef-92f1d74628b7")
+		)
+		(fp_line
+			(start 2.28 1.12)
+			(end -2.28 1.12)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9d893f4d-a658-4f1f-bfb5-6ef2e67fe5dd")
+		)
+		(fp_line
+			(start -1.6 -0.8)
+			(end 1.6 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e325efea-836b-45cb-bdf3-ed6822867916")
+		)
+		(fp_line
+			(start -1.6 0.8)
+			(end -1.6 -0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f8776109-1da7-4793-9faa-702dc0147a4b")
+		)
+		(fp_line
+			(start 1.6 -0.8)
+			(end 1.6 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0bb40a91-650a-4487-9aac-2ed328164aeb")
+		)
+		(fp_line
+			(start 1.6 0.8)
+			(end -1.6 0.8)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "13d591c8-271a-42c8-9741-a8c1862f6e46")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "af7797f2-da07-46ea-9cdd-21d555c2046b")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.4 0)
+			(size 1.25 1.75)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.2)
+			(net 88 "/B-TO-EXP")
+			(pintype "passive")
+			(uuid "8c68443b-d0ad-4d5c-8867-90bcda7d8558")
+		)
+		(pad "2" smd roundrect
+			(at 1.4 0)
+			(size 1.25 1.75)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.2)
+			(net 29 "Net-(J4-Pin_7)")
+			(pintype "passive")
+			(uuid "cec820b5-7457-40e3-b601-6f0e097232ab")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1206_3216Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "a85d55ef-be31-4573-a5be-08c8378a8f71")
@@ -38867,6 +39790,361 @@
 			(uuid "5944398c-f506-41f0-8932-6cae9c5cfb86")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Heatsink:Heatsink_Fischer_FK24413DPAK_23x13mm"
+		(layer "F.Cu")
+		(uuid "c27d662b-7b7d-4b83-90c1-403db9ef42e3")
+		(at 246.8 107.05)
+		(descr "23x13 mm SMD heatsink for TO-252 TO-263 TO-268, https://www.fischerelektronik.de/pim/upload/fischerData/cadpdf/base/fk_244_13_d_pak.pdf")
+		(tags "heatsink TO-252 TO-263 TO-268")
+		(property "Reference" "HS6"
+			(at -9.5 -7.5 180)
+			(layer "F.SilkS")
+			(uuid "2722ecc0-0dec-48a5-a395-b9d5d2cb2e49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "FK24413"
+			(at 0 8 0)
+			(layer "F.Fab")
+			(uuid "cc4bf49b-0ec5-48d1-a075-842521570ef1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Heatsink:Heatsink_Fischer_FK24413DPAK_23x13mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9ffd2611-6ade-420e-a6f2-14a153ad34bd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba86ab2d-f018-4c1d-ade6-710bd4011edc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Heatsink with electrical connection, 1 pin"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7bf49c1-6d6e-462c-b5d5-006302c8cc23")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Heatsink_*")
+		(path "/00000000-0000-0000-0000-000061cf16a7/9a9ccc7b-387a-4775-b797-8f89ce892e3a")
+		(sheetname "Bridge")
+		(sheetfile "bridge.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -11.62 -6.62)
+			(end -8.1 -6.62)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "203f6602-6bcc-4a5e-afa1-f574794af5f4")
+		)
+		(fp_line
+			(start -11.62 6.62)
+			(end -11.62 -6.62)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1239b95f-d0ec-41c7-9ede-3a10dcbbbef2")
+		)
+		(fp_line
+			(start -11.62 6.62)
+			(end -8.1 6.62)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "f3fa717d-a3c5-48ed-a684-bf9e5af43ed0")
+		)
+		(fp_line
+			(start 8.1 -6.62)
+			(end 11.62 -6.62)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4236db08-3508-401a-bbff-8e2163b74975")
+		)
+		(fp_line
+			(start 8.1 6.62)
+			(end 11.62 6.62)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dcf4a4bc-686c-4be5-af16-e4f7fb087400")
+		)
+		(fp_line
+			(start 11.62 -6.62)
+			(end 11.62 6.62)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "124c9064-2728-494b-9203-5a5cef971ff0")
+		)
+		(fp_line
+			(start -11.4 -6.4)
+			(end -8 -6.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Cmts.User")
+			(uuid "e9fe08ae-7de9-41e9-9e87-da25b918a500")
+		)
+		(fp_line
+			(start -11.4 6.4)
+			(end -11.4 -6.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Cmts.User")
+			(uuid "fef068be-9b55-4893-83c5-b662a8b782b3")
+		)
+		(fp_line
+			(start -8 -6.4)
+			(end -8 6.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Cmts.User")
+			(uuid "176015de-baeb-4317-8df3-3a79acf5111d")
+		)
+		(fp_line
+			(start -8 6.4)
+			(end -11.4 6.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Cmts.User")
+			(uuid "a66ab943-ff82-46c3-8e8d-4f1330ad3176")
+		)
+		(fp_line
+			(start 8 6.4)
+			(end 8 -6.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Cmts.User")
+			(uuid "17d4a6cb-f28f-40f3-9f84-9b89ed0f034c")
+		)
+		(fp_line
+			(start 8 6.4)
+			(end 11.4 6.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Cmts.User")
+			(uuid "457d0b02-c74f-44a0-8ae5-3d8b153b104e")
+		)
+		(fp_line
+			(start 11.4 -6.4)
+			(end 8 -6.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Cmts.User")
+			(uuid "a29477e6-cc01-4881-ae4e-2583a5e6836a")
+		)
+		(fp_line
+			(start 11.4 6.4)
+			(end 11.4 -6.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Cmts.User")
+			(uuid "5ac1f0d3-cd35-4bb3-9308-5a639588014e")
+		)
+		(fp_line
+			(start -12 -7)
+			(end -12 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8b5c9367-21fd-4990-bf50-2bd81fbe0d41")
+		)
+		(fp_line
+			(start -12 -7)
+			(end 12 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e731bdc7-c299-4cbe-b291-262eac977851")
+		)
+		(fp_line
+			(start 12 7)
+			(end -12 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cc6bbde5-18c9-468f-aad1-b978698fa057")
+		)
+		(fp_line
+			(start 12 7)
+			(end 12 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f65bbe76-fd7f-4330-98ff-879c2e6e52d5")
+		)
+		(fp_line
+			(start -11.5 -6.5)
+			(end 11.5 -6.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ff8a0cbc-efc1-4e09-9c12-3defd2e21c67")
+		)
+		(fp_line
+			(start -11.5 6.5)
+			(end -11.5 -6.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "88616bbd-6470-4314-8e97-22abf6a0ad1d")
+		)
+		(fp_line
+			(start 11.5 -6.5)
+			(end 11.5 6.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ecf169dd-e8e7-4311-828e-3ee7a34ae42c")
+		)
+		(fp_line
+			(start 11.5 6.5)
+			(end -11.5 6.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "db277c63-ef4a-4a1f-88f3-26685ea50d4f")
+		)
+		(fp_text user "H10mm"
+			(at -9.5 0 90)
+			(layer "Cmts.User")
+			(uuid "0f710fc0-7089-4e60-843c-a41ab8ae2ccf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "H10mm"
+			(at 9.5 0 90)
+			(layer "Cmts.User")
+			(uuid "eeb229a8-7e09-4db7-a730-5b269e2a809d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "989fa867-973f-4a1b-b49c-792780c8e392")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -6.2 0 180)
+			(size 3.25 13.2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 8 "/Bridge/V+")
+			(pintype "passive")
+			(zone_connect 2)
+			(uuid "21443fe6-2c10-489c-a63f-e66f3ceb30e4")
+		)
+		(pad "1" smd rect
+			(at 6.2 0)
+			(size 3.25 13.2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 8 "/Bridge/V+")
+			(pintype "passive")
+			(zone_connect 2)
+			(uuid "053f79f8-f9eb-4790-97dd-2e25924e215a")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Heatsink.3dshapes/Heatsink_Fischer_FK24413DPAK_23x13mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -49457,6 +50735,361 @@
 			(uuid "8f7d6e39-b5cf-40e4-a5b1-00db31e6958e")
 		)
 		(model "${KICAD8_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "Heatsink:Heatsink_Fischer_FK24413DPAK_23x13mm"
+		(layer "F.Cu")
+		(uuid "ffbf22eb-3fd8-4d93-a603-d5b9c8565e69")
+		(at 246.8 76.95)
+		(descr "23x13 mm SMD heatsink for TO-252 TO-263 TO-268, https://www.fischerelektronik.de/pim/upload/fischerData/cadpdf/base/fk_244_13_d_pak.pdf")
+		(tags "heatsink TO-252 TO-263 TO-268")
+		(property "Reference" "HS4"
+			(at -9.5 -7.5 180)
+			(layer "F.SilkS")
+			(uuid "f74d69b3-cd97-4e03-992b-5a9c9cd85872")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "FK24413"
+			(at 0 8 0)
+			(layer "F.Fab")
+			(uuid "b311d641-cc21-40ad-8bd8-a1afb9be5ca9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "Heatsink:Heatsink_Fischer_FK24413DPAK_23x13mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3c9854b-d5d8-47a7-8298-a91b4d15fc61")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3bb402e-a9fa-4216-9705-695915c7f848")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Heatsink with electrical connection, 1 pin"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c81c2279-e0eb-4a1c-ac80-01028a14a934")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Heatsink_*")
+		(path "/00000000-0000-0000-0000-000061cf16a7/9dd8bd5b-2957-4d3f-989b-2a4614f45974")
+		(sheetname "Bridge")
+		(sheetfile "bridge.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -11.62 -6.62)
+			(end -8.1 -6.62)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1d488265-aee3-47e4-9b43-29c4c98323a5")
+		)
+		(fp_line
+			(start -11.62 6.62)
+			(end -11.62 -6.62)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "1c63f239-5f15-46ff-af91-1d7a9a8906ab")
+		)
+		(fp_line
+			(start -11.62 6.62)
+			(end -8.1 6.62)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "eb6057fe-692e-4d34-84a6-ae2ae0c36327")
+		)
+		(fp_line
+			(start 8.1 -6.62)
+			(end 11.62 -6.62)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "274b3918-2846-4f45-86e3-33d5f15f0c81")
+		)
+		(fp_line
+			(start 8.1 6.62)
+			(end 11.62 6.62)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d116ef98-0068-4478-8f97-b11fe060a1dd")
+		)
+		(fp_line
+			(start 11.62 -6.62)
+			(end 11.62 6.62)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0926d178-9e22-41c2-8533-a52f32f8bf6d")
+		)
+		(fp_line
+			(start -11.4 -6.4)
+			(end -8 -6.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Cmts.User")
+			(uuid "61611d25-82df-413e-844b-7127bda3c1e2")
+		)
+		(fp_line
+			(start -11.4 6.4)
+			(end -11.4 -6.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Cmts.User")
+			(uuid "6b49a269-6faf-4f14-aee2-1cc2a7c38ec2")
+		)
+		(fp_line
+			(start -8 -6.4)
+			(end -8 6.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Cmts.User")
+			(uuid "47334bbd-dd3b-48ea-a32c-81585fa0d94b")
+		)
+		(fp_line
+			(start -8 6.4)
+			(end -11.4 6.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Cmts.User")
+			(uuid "e3deab83-9dcf-485d-a6d4-6b614ac726f2")
+		)
+		(fp_line
+			(start 8 6.4)
+			(end 8 -6.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Cmts.User")
+			(uuid "b9e23a69-71cf-483c-b876-b4a0c6ef0376")
+		)
+		(fp_line
+			(start 8 6.4)
+			(end 11.4 6.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Cmts.User")
+			(uuid "46224fd4-4ef8-41a8-83dd-5336c04dcb8c")
+		)
+		(fp_line
+			(start 11.4 -6.4)
+			(end 8 -6.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Cmts.User")
+			(uuid "c465d995-6ca9-4b90-aefc-6d0ebd431fd6")
+		)
+		(fp_line
+			(start 11.4 6.4)
+			(end 11.4 -6.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "Cmts.User")
+			(uuid "4ad964f3-26bc-40c7-af73-3c80e13c18ee")
+		)
+		(fp_line
+			(start -12 -7)
+			(end -12 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f0e57b1b-0a6f-4e4c-81ed-7cd9f57bb1c1")
+		)
+		(fp_line
+			(start -12 -7)
+			(end 12 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "51d84c4b-2c66-4942-8c09-fd41cb04ad52")
+		)
+		(fp_line
+			(start 12 7)
+			(end -12 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d4d54900-2d37-4a74-bf85-70e946a767aa")
+		)
+		(fp_line
+			(start 12 7)
+			(end 12 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "88c96b22-bb81-4341-a9a5-1d8e8ccb377e")
+		)
+		(fp_line
+			(start -11.5 -6.5)
+			(end 11.5 -6.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b3185dad-7024-4778-ab5f-7bc66f9f374e")
+		)
+		(fp_line
+			(start -11.5 6.5)
+			(end -11.5 -6.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4f0c34aa-0d50-4657-b174-e2bcb2aae9ec")
+		)
+		(fp_line
+			(start 11.5 -6.5)
+			(end 11.5 6.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2d5ec352-d345-423a-945a-79287066d368")
+		)
+		(fp_line
+			(start 11.5 6.5)
+			(end -11.5 6.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2c456320-c61e-4c88-8d7a-d8bcd983dc28")
+		)
+		(fp_text user "H10mm"
+			(at -9.5 0 90)
+			(layer "Cmts.User")
+			(uuid "aad39349-e25b-4640-9d8c-c692e2055eb2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "H10mm"
+			(at 9.5 0 90)
+			(layer "Cmts.User")
+			(uuid "fdf693f5-da55-4c4f-ab52-e735dea8ae43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "cdb75552-040e-44bc-85e9-9fbb49c8ff6f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at -6.2 0 180)
+			(size 3.25 13.2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 10 "/J")
+			(pintype "passive")
+			(zone_connect 2)
+			(uuid "ae8e055f-3a40-402f-ad8f-a732ec770aad")
+		)
+		(pad "1" smd rect
+			(at 6.2 0)
+			(size 3.25 13.2)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 10 "/J")
+			(pintype "passive")
+			(zone_connect 2)
+			(uuid "5df44bdb-36f0-4055-a4ee-9945c6829641")
+		)
+		(model "${KICAD8_3DMODEL_DIR}/Heatsink.3dshapes/Heatsink_Fischer_FK24413DPAK_23x13mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)

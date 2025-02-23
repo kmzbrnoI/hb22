@@ -10862,7 +10862,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Heatsink:Heatsink_Fischer_FK24413DPAK_23x13mm"
 			(at 204.1652 137.16 0)
 			(effects
 				(font
@@ -10928,7 +10928,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Heatsink:Heatsink_Fischer_FK24413DPAK_23x13mm"
 			(at 204.1652 71.12 0)
 			(effects
 				(font
@@ -10994,7 +10994,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Heatsink:Heatsink_Fischer_FK24413DPAK_23x13mm"
 			(at 173.6852 123.19 0)
 			(effects
 				(font
@@ -11060,7 +11060,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Heatsink:Heatsink_Fischer_FK24413DPAK_23x13mm"
 			(at 173.6852 57.15 0)
 			(effects
 				(font
