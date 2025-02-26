@@ -7019,19 +7019,21 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000062368834")
 		(property "Reference" "D18"
-			(at 32.1818 134.62 0)
+			(at 29.21 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "1N5819"
-			(at 29.8704 134.62 0)
+			(at 29.21 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
