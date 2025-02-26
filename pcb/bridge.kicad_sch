@@ -5003,7 +5003,7 @@
 		)
 		(uuid "ffde4898-4c0e-4c24-bd8c-aadcd7279172")
 	)
-	(text "35 V max stabilized (25 V max on DCC)"
+	(text "25 V max (DCC)"
 		(exclude_from_sim no)
 		(at 194.31 25.4 0)
 		(effects
