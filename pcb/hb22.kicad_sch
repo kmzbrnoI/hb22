@@ -2490,7 +2490,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "ring"
 			(at 103.0732 81.8642 0)
 			(effects
 				(font

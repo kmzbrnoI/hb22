@@ -8530,7 +8530,7 @@
 			)
 		)
 		(property "I2C addr" "0x80"
-			(at 207.01 92.71 0)
+			(at 207.01 118.11 0)
 			(show_name yes)
 			(effects
 				(font
